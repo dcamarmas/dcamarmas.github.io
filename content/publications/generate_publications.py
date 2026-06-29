@@ -24,11 +24,11 @@ except ImportError:
 # ---------- Mapping helpers ----------
 
 TYPE_MAP = {
-    "inproceedings": ("conference", "Conf"),
-    "conference": ("conference", "Conf"),
-    "proceedings": ("conference", "Conf"),
-    "article": ("journal", "Jour"),
-    "journal": ("journal", "Jour"),
+    "inproceedings": ("conference", "Conference"),
+    "conference": ("conference", "Conference"),
+    "proceedings": ("conference", "Conference"),
+    "article": ("journal", "Journal"),
+    "journal": ("journal", "Journal"),
     "phdthesis": ("phdthesis", "PhD"),
     "mastersthesis": ("masterthesis", "MSc"),
     "incollection": ("bookchapter", "Ch"),
