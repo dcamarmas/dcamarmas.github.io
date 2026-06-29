@@ -26,19 +26,19 @@ async function loadPublications() {
                 <div class="sm:w-24 flex-shrink-0">
                   <span class="block text-xl font-bold text-gray-400">${pub.year}</span>
 
-                  ${pub.badge === "Jour" ? `
+                  ${pub.badge === "Journal" ? `
                   <span class="inline-block px-2 py-0.5 mt-1 text-xs font-bold text-green-700 bg-green-100 rounded uppercase">
                     ${pub.badge}
                   </span>
                   ` : ''}
 
-                  ${pub.badge === "Conf" ? `
+                  ${pub.badge === "Conference" ? `
                   <span class="inline-block px-2 py-0.5 mt-1 text-xs font-bold text-blue-700 bg-blue-100 rounded uppercase">
                     ${pub.badge}
                   </span>
                   ` : ''}
 
-                  ${pub.badge === "Work" ? `
+                  ${pub.badge === "Workshop" ? `
                   <span class="inline-block px-2 py-0.5 mt-1 text-xs font-bold text-orange-700 bg-orange-100 rounded uppercase">
                     ${pub.badge}
                   </span>
