@@ -43,6 +43,7 @@ async function loadPublications() {
                     ${pub.badge}
                   </span>
                   ` : ''}
+                  
                 </div>
                 
                 <div class="flex-grow">
