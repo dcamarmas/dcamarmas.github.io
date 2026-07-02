@@ -27,11 +27,12 @@ TYPE_MAP = {
     "inproceedings": ("conference", "Conference"),
     "conference": ("conference", "Conference"),
     "proceedings": ("conference", "Conference"),
+    "inbook": ("conference", "Conference"),
     "article": ("journal", "Journal"),
     "journal": ("journal", "Journal"),
-    "phdthesis": ("phdthesis", "PhD"),
-    "mastersthesis": ("masterthesis", "MSc"),
-    "incollection": ("bookchapter", "Ch"),
+    "phdthesis": ("phdthesis", "PhD Thesis"),
+    "mastersthesis": ("masterthesis", "MSc Thesis"),
+    "incollection": ("bookchapter", "Chapter"),
     "book": ("book", "Book"),
     "misc": ("other", "Other"),
 }
@@ -54,6 +55,21 @@ LATEX_ACCENTS = {
 
     r"\c c": "ç", r"\c C": "Ç",
 }
+
+def find_workshop_papers(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Identify workshop publications based on keywords.
+    Returns a list of entries that are workshop papers.
+    """
+    workshop_keys = ["sanchez2024transformer", "sanchez2025combining"]
+    workshop_entries = []
+
+    for entry in entries:
+        entry_id = (entry.get("key") or "").lower()
+        if any(keyword in entry_id for keyword in workshop_keys):
+            workshop_entries.append(entry)
+
+    return workshop_entries
 
 def latex_to_unicode(text: str) -> str:
     if not text:
@@ -216,6 +232,49 @@ def build_venue(entry: Dict[str, Any]) -> str:
 
 # ---------- Normalization to target JSON schema ----------
 
+def entry_to_bibtex(entry: Dict[str, Any]) -> str:
+    """
+    Convert a parsed BibTeX entry back to BibTeX format string.
+    """
+    entry_type = entry.get("ENTRYTYPE", "misc").lower()
+    entry_id = entry.get("ID", "unknown")
+    
+    lines = [f"@{entry_type}{{{entry_id},"]
+    
+    # Order of fields to prioritize
+    field_order = ["author", "title", "year", "booktitle", "journal", "volume", "number", 
+                   "pages", "doi", "url", "publisher", "organization", "school", "institution"]
+    
+    # Collect all fields
+    fields_to_write = {}
+    for key, value in entry.items():
+        if key not in ["ENTRYTYPE", "ID"] and value:
+            fields_to_write[key.lower()] = value
+    
+    # Write fields in priority order, then remaining fields
+    written = set()
+    for field in field_order:
+        if field in fields_to_write:
+            value = fields_to_write[field]
+            lines.append(f"  {field} = {{{value}}},")
+            written.add(field)
+    
+    # Write remaining fields
+    for field in sorted(fields_to_write.keys()):
+        if field not in written:
+            value = fields_to_write[field]
+            lines.append(f"  {field} = {{{value}}},")
+    
+    # Remove trailing comma from last field
+    if  len(lines) > 1:
+        lines[-1] = lines[-1].rstrip(",")
+    
+    lines.append("}")
+    return "\n".join(lines)
+
+
+# ---------- Normalization to target JSON schema ----------
+
 def normalize_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
     """
     Convert a BibTeX entry to the target JSON format:
@@ -227,7 +286,9 @@ def normalize_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
         "title": "...",
         "authorsDisplay": "...",
         "authorsData": "...",
-        "venue": "..."
+        "venue": "...",
+        "key": "Sanchez2025",
+        "bibtex": "@inproceedings{Sanchez2025, ...}"
     }
     """
     entry_type = entry.get("ENTRYTYPE", "")
@@ -245,6 +306,10 @@ def normalize_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
         latex_to_unicode(entry.get("author", ""))
     )
     venue = build_venue(entry)
+    doi = clean_braces(entry.get("doi", ""))
+    url = clean_braces(entry.get("url", ""))
+    key = entry.get("ID", "")  # BibTeX citation key
+    bibtex_text = entry_to_bibtex(entry)
 
     return {
         "year": year,
@@ -254,6 +319,10 @@ def normalize_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
         "authorsDisplay": authors_display,
         "authorsData": authors_data,
         "venue": venue,
+        "doi": doi,
+        "url": url,
+        "key": key,
+        "bibtex": bibtex_text,
     }
 
 
@@ -307,13 +376,13 @@ def main():
     parser.add_argument(
         "-o",
         "--output",
-        default="publications.json",
+        default="generate_publications/publications.json",
         help="Output JSON file for unique entries (default: publications.json)",
     )
     parser.add_argument(
         "-d",
         "--duplicates",
-        default="duplicates.json",
+        default="generate_publications/testduplicates.json",
         help="Output JSON file listing duplicate groups (default: duplicates.json)",
     )
 
@@ -342,6 +411,13 @@ def main():
         else:
             seen[key] = j
             norm_entries.append(j)
+
+    # Detect workshop publications
+    workshop_matches = find_workshop_papers(norm_entries)
+    if workshop_matches:
+        for we in workshop_matches:
+            we["type"] = "workshop"
+            we["badge"] = "Workshop"
 
     # Save unique entries
     with open(args.output, "w", encoding="utf-8") as f:
