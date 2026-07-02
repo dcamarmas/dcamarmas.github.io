@@ -61,7 +61,7 @@ def find_workshop_papers(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     Identify workshop publications based on keywords.
     Returns a list of entries that are workshop papers.
     """
-    workshop_keys = ["sanchez2024transformer", "sanchez2025combining"]
+    workshop_keys = ["munoz2024malleability"]
     workshop_entries = []
 
     for entry in entries:

@@ -222,16 +222,16 @@
   },
   {
     "year": 2025,
-    "type": "conference",
-    "badge": "Conference",
+    "type": "workshop",
+    "badge": "Workshop",
     "title": "Malleability in the Expand Ad-Hoc Parallel File System",
     "authorsDisplay": "Muñoz-Muñoz, D., Garcia-Carballeira, F., Camarmas-Alonso, D., Calderon-Mateos, A., & Carretero, J.",
     "authorsData": "Muñoz-Muñoz, Garcia-Carballeira, Camarmas-Alonso, Calderon-Mateos, Carretero",
     "venue": "Euro-Par 2024: Parallel Processing Workshops, pp. 322–333, Springer Nature Switzerland.",
     "doi": "10.1007/978-3-031-90200-0_26",
     "url": "http://dx.doi.org/10.1007/978-3-031-90200-0_26",
-    "key": "Mu_oz_Mu_oz_2025",
-    "bibtex": "@inbook{Mu_oz_Mu_oz_2025,\n  author = {Muñoz-Muñoz, Dario and Garcia-Carballeira, Felix and Camarmas-Alonso, Diego and Calderon-Mateos, Alejandro and Carretero, Jesus},\n  title = {Malleability in the Expand Ad-Hoc Parallel File System},\n  year = {2025},\n  booktitle = {Euro-Par 2024: Parallel Processing Workshops},\n  pages = {322–333},\n  doi = {10.1007/978-3-031-90200-0_26},\n  url = {http://dx.doi.org/10.1007/978-3-031-90200-0_26},\n  publisher = {Springer Nature Switzerland},\n  isbn = {9783031902000},\n  issn = {1611-3349}\n}"
+    "key": "munoz2024malleability",
+    "bibtex": "@inbook{munoz2024malleability,\n  author = {Muñoz-Muñoz, Dario and Garcia-Carballeira, Felix and Camarmas-Alonso, Diego and Calderon-Mateos, Alejandro and Carretero, Jesus},\n  title = {Malleability in the Expand Ad-Hoc Parallel File System},\n  year = {2025},\n  booktitle = {Euro-Par 2024: Parallel Processing Workshops},\n  pages = {322–333},\n  doi = {10.1007/978-3-031-90200-0_26},\n  url = {http://dx.doi.org/10.1007/978-3-031-90200-0_26},\n  publisher = {Springer Nature Switzerland},\n  isbn = {9783031902000},\n  issn = {1611-3349}\n}"
   },
   {
     "year": 2024,
