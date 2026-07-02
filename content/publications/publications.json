@@ -62,7 +62,7 @@
     "doi": "10.5281/ZENODO.21073524",
     "url": "https://zenodo.org/doi/10.5281/zenodo.21073524",
     "key": "https://doi.org/10.5281/zenodo.21073524",
-    "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.21073524,\n  author = {Jose Antonio, Verde-Jimenez and Alvaro, Gerrero-Espinosa and Camarmas Alonso, Diego and Garcia Carballeira, Felix and Calderon Mateos, Alejandro},\n  title = {Entorno para el modelado y simulación de sistemas electrónicos digitales},\n  year = {2026},\n  booktitle = {XXXVI Jornadas de Paralelismo (JP26)},\n  doi = {10.5281/ZENODO.21073524},\n  url = {https://zenodo.org/doi/10.5281/zenodo.21073524},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Simulador, circuitos digitales, HDL},\n  language = {es}\n}"
+    "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.21073524,\n  author = {Jose Antonio, Verde-Jimenez and Alvaro, Guerrero-Espinosa and Camarmas Alonso, Diego and Garcia Carballeira, Felix and Calderon Mateos, Alejandro},\n  title = {Entorno para el modelado y simulación de sistemas electrónicos digitales},\n  year = {2026},\n  booktitle = {XXXVI Jornadas de Paralelismo (JP26)},\n  doi = {10.5281/ZENODO.21073524},\n  url = {https://zenodo.org/doi/10.5281/zenodo.21073524},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Simulador, circuitos digitales, HDL},\n  language = {es}\n}"
   },
   {
     "year": 2026,
