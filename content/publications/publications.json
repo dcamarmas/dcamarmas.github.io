@@ -40,7 +40,7 @@
   },
   {
     "year": 2026,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Checkpointing transparente en aplicaciones que utilizan sistemas de ficheros ad-hoc",
     "authorsDisplay": "Muñoz Muñoz, D., Garcia Carballeira, F., Calderon Mateos, A., Camarmas Alonso, D., & Carretero, J.",
@@ -53,7 +53,7 @@
   },
   {
     "year": 2026,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Entorno para el modelado y simulación de sistemas electrónicos digitales",
     "authorsDisplay": "Jose Antonio, V., Alvaro, G., Camarmas Alonso, D., Garcia Carballeira, F., & Calderon Mateos, A.",
@@ -66,7 +66,7 @@
   },
   {
     "year": 2026,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Securizando el sistema de ficheros Expand utilizando blockchain",
     "authorsDisplay": "Camarmas Alonso, D., Garcia Carballeira, F., Calderon Mateos, A., & Carretero, J.",
@@ -131,7 +131,7 @@
   },
   {
     "year": 2025,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Evaluación del sistema de ficheros Expand Ad-Hoc con aplicaciones de uso intensivo de datos",
     "authorsDisplay": "Camarmas Alonso, D., Garcia Carballeira, F., Calderon Mateos, A., Muñoz Muñoz, D., & Carretero, J.",
@@ -144,7 +144,7 @@
   },
   {
     "year": 2025,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Extensión del simulador CREATOR para integrar funcionalidades de Arduino: caso de estudio con el microcontrolador ESP32",
     "authorsDisplay": "Utrilla Arroyo, E., Camarmas Alonso, D., Garcia Carballeira, F., & Calderon Mateos, A.",
@@ -157,7 +157,7 @@
   },
   {
     "year": 2025,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "LFI: una librería de comunicaciones tolerante a fallos para redes de alto rendimiento",
     "authorsDisplay": "Muñoz Muñoz, D., Garcia Carballeira, F., Camarmas Alonso, D., & Calderon Mateos, A.",
@@ -170,7 +170,7 @@
   },
   {
     "year": 2025,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Optimización de entornos de Big Data Analytics mediante sistemas de ficheros paralelos Ad-hoc",
     "authorsDisplay": "Sotodosos Morales, G., Garcia Carballeira, F., Camarmas Alonso, D., Calderon Mateos, A., Muñoz Muñoz, D., & Carretero, J.",
@@ -183,7 +183,7 @@
   },
   {
     "year": 2025,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Simulador web para RISC-V basado en la especificación SAIL",
     "authorsDisplay": "Cano Resa, J. C., Garcia Carballeira, F., Camarmas Alonso, D., & Calderon Mateos, A.",
@@ -196,7 +196,7 @@
   },
   {
     "year": 2025,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Sistema de almacenamiento para computing continuum: aplicación a sistemas de información ferroviaria",
     "authorsDisplay": "Del Pozo Puñal, E., Garcia Carballeira, F., Camarmas Alonso, D., & Calderon Mateos, A.",
@@ -209,7 +209,7 @@
   },
   {
     "year": 2025,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "ENIGMA: A Scalable Simulator for IoT and Edge Computing",
     "authorsDisplay": "Del Pozo Puñal, E., Garcia-Carballeira, F., & Camarmas Alonso, D.",
@@ -235,7 +235,7 @@
   },
   {
     "year": 2024,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Evaluación del rendimiento de un sistema de ficheros para sistemas IoT",
     "authorsDisplay": "Del-Pozo-Puñal, E., Garcia-Carballeira, F., Camarmas-Alonso, D., & Calderon-Mateos, A.",
@@ -248,7 +248,7 @@
   },
   {
     "year": 2024,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Tolerancia a fallos en el sistema de ficheros paralelo Expand Ad-Hoc",
     "authorsDisplay": "Muñoz-Muñoz, D., Camarmas Alonso, D., Garcia-Carballeira, F., Calderon-Mateos, A., & Carretero, J.",
@@ -261,7 +261,7 @@
   },
   {
     "year": 2024,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Servicio de laboratorio remoto para la integración del simulador CREATOR con hardware RISC-V",
     "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Calderon-Mateos, A., & Del-Pozo-Puñal, E.",
@@ -300,7 +300,7 @@
   },
   {
     "year": 2023,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Evaluación de rendimiento del sistema de ficheros paralelo Expand Ad-Hoc en MareNostrum 4",
     "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Calderon-Mateos, A., & Carretero, J.",
@@ -313,7 +313,7 @@
   },
   {
     "year": 2023,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Integración del simulador CREATOR con hardware RISC-V: caso de estudio con microcontrolador ESP32",
     "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Calderon-Mateos, A., & Del-Pozo-Puñal, E.",
@@ -326,7 +326,7 @@
   },
   {
     "year": 2023,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Sistema de Ficheros Distribuido para IoT basado en Expand",
     "authorsDisplay": "Del-Pozo-Puñal, E., Garcia-Carballeira, F., Camarmas-Alonso, D., & Calderon-Mateos, A.",
@@ -378,7 +378,7 @@
   },
   {
     "year": 2022,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Sistema de almacenamiento Ad-Hoc para entornos HPC basado en el sistema de ficheros paralelo Expand",
     "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Mateos, A. C., & Perez, J. C.",
@@ -391,7 +391,7 @@
   },
   {
     "year": 2022,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "Una propuesta para el uso de dispositivos móviles en SimGrid: Aplicación a las simulaciones de IoT",
     "authorsDisplay": "Del-Pozo-Puñal, E., Garcia-Carballeira, F., & Camarmas-Alonso, D.",
@@ -417,7 +417,7 @@
   },
   {
     "year": 2021,
-    "type": "conference",
+    "type": "nat_conference",
     "badge": "Conference",
     "title": "CREATOR: Simulador didáctico y genérico para la programación en ensamblador",
     "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Del-Pozo-Puñal, E., & Mateos, A. C.",

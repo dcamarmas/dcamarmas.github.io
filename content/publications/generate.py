@@ -71,6 +71,21 @@ def find_workshop_papers(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
     return workshop_entries
 
+def find_national_conference_papers(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Identify national conference publications based on keywords.
+    Returns a list of entries that are national conference papers.
+    """
+    nat_conference_keys = ["jornadas"]
+    nat_conference_entries = []
+
+    for entry in entries:
+        entry_id = (entry.get("venue") or "").lower()
+        if any(keyword in entry_id for keyword in nat_conference_keys):
+            nat_conference_entries.append(entry)
+
+    return nat_conference_entries
+
 def latex_to_unicode(text: str) -> str:
     if not text:
         return text
@@ -418,6 +433,13 @@ def main():
         for we in workshop_matches:
             we["type"] = "workshop"
             we["badge"] = "Workshop"
+
+    # Detect national conference publications
+    national_conference_matches = find_national_conference_papers(norm_entries)
+    if national_conference_matches:
+        for we in national_conference_matches:
+            we["type"] = "nat_conference"
+            we["badge"] = "Conference"
 
     # Save unique entries
     with open(args.output, "w", encoding="utf-8") as f:
