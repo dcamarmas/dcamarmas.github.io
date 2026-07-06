@@ -1,847 +1,902 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Diego Camarmas Alonso</title>
+    <title>Diego Camarmas Alonso</title>
 
-  <link rel="icon" type="image/svg" href="assets/favicon.svg">
-  <link rel="stylesheet" href="assets/tailwind/output.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@300;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg" href="assets/favicon.svg">
+    <link rel="stylesheet" href="assets/tailwind/output.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@300;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <script>
-    // global objects for this profile.
-    window.PROFILE_CONFIG = {
-      memberId: "dcamarma",
-      searchName: "Camarmas",  // El nombre que usaremos para filtrar publicaciones
-    };
-  </script>
+    <script>
+      // global objects for this profile.
+      window.PROFILE_CONFIG = {
+        memberId: "dcamarma",
+        searchName: "Camarmas",  // El nombre que usaremos para filtrar publicaciones
+      };
+    </script>
 
-  <script src="scripts/components.js"></script>
-</head>
+    <script src="scripts/components.js"></script>
+  </head>
 
-<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+  <body class="bg-gray-50 text-gray-800 font-sans antialiased">
 
-  <div id="navbar-container"></div>
+    <div id="navbar-container"></div>
 
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 space-y-12">
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 space-y-12">
 
-    <section class="flex flex-col lg:flex-row items-start justify-between gap-10 border-b border-gray-200 pb-12">
+      <section class="flex flex-col lg:flex-row items-start justify-between gap-10 border-b border-gray-200 pb-12">
 
-      <div class="flex flex-col sm:flex-row items-start gap-8 flex-grow">
-        <div class="flex flex-col items-center gap-1 flex-shrink-0 w-52 self-center sm:self-start">
-          <img src="assets/images/dcamarmas.png" alt="Diego Camarmas Alonso"
-            class="w-52 h-64 rounded-full border-4 border-white shadow-lg object-cover">
+        <div class="flex flex-col sm:flex-row items-start gap-8 flex-grow">
+          <div class="flex flex-col items-center gap-1 flex-shrink-0 w-52 self-center sm:self-start">
+            <img src="assets/images/dcamarmas.png" alt="Diego Camarmas Alonso"
+              class="w-52 h-64 rounded-full border-4 border-white shadow-lg object-cover">
 
-          <div class="flex flex-col items-center justify-center gap-6 w-full mt-2">
-            <a href="https://www.uc3m.es/home" target="_blank" title="Open the UC3M website."
-              class="transition-transform hover:scale-105 block">
-              <img src="assets/institutions_logos/uc3m.png" alt="Universidad Carlos III de Madrid"
-                class="w-48 h-auto object-contain transition duration-300">
-            </a>
-            
-            <a href="https://arcos-uc3m.github.io/" target="_blank" title="Open the ARCOS website."
-              class="transition-transform hover:scale-105 block">
-              <img src="assets/institutions_logos/arcos.png" alt="ARCOS Research Group"
-                class="w-44 h-auto object-contain transition duration-300">
-            </a>
-          </div>
-        </div>
-
-        <div>
-          <h1 class="font-serif text-3xl md:text-4xl font-bold text-gray-900 mb-2 text-center sm:text-left">
-            Diego Camarmas Alonso
-          </h1>
-          <p class="text-xl text-gray-600 font-light mb-4 text-center sm:text-left">
-            Post-doctoral Researcher
-          </p>
-
-          <p class="text-base text-gray-600 font-light mb-4 text-center sm:text-left">
-            Computer Architecture Research Group (ARCOS) <br> Computer Science and Engineering Department
-          </p>
-
-          <p class="text-base text-gray-600 font-light mb-4 text-center sm:text-left">
-            Universidad Carlos III de Madrid (UC3M)
-          </p>
-
-          <div class="flex flex-col gap-3 mt-8">
-            <div class="flex items-center gap-3 text-gray-600">
-              <i class="fa-solid fa-envelope w-6 text-center text-gray-500"></i>
-              <span>dcamarma@inf.uc3m.es</span>
-            </div>
-
-            <!--<div class="flex items-center gap-3 text-gray-600">
-              <i class="fa-solid fa-phone w-6 text-center text-gray-500"></i>
-              <span>+34 91 </span>
-            </div>-->
-
-            <div class="flex items-center gap-3 text-gray-600">
-              <i class="fa-solid fa-building w-6 text-center text-gray-500"></i>
-              <span>Universidad Carlos III de Madrid (Av. Universidad 30, Leganés, Madrid, Spain)</span>
-            </div>
-
-            <div class="flex items-center gap-3 text-gray-600">
-              <i class="fa-solid fa-location-dot w-6 text-center text-gray-500"></i>
-              <span>Edificio Sabatini, 2.2.B06</span>
-            </div>
-
-            <a target="_blank"
-              href="https://www.uc3m.es/ss/Satellite/DeptBioingenieria/es/DetallePersonalDept/1371347493955/idu-230055"
-              class="flex items-center gap-3 text-gray-600 hover:text-brand-600 transition group"
-              title="Open the profile at UC3M website.">
-              <i class="fa-solid fa-globe w-6 text-center text-gray-500 group-hover:text-brand-600 transition"></i>
-              <span class="group-hover:underline">UC3M Profile</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <aside class="w-full lg:w-72 bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex-shrink-0">
-        <h3 class="text-lg font-semibold text-gray-900 mb-5 border-b pb-2">Links</h3>
-        <ul class="space-y-4 text-sm text-gray-700">
-          <li class="flex items-center gap-3">
-            <i class="fa-brands fa-linkedin text-brand-600 fa-lg"></i>
-            <a target="_blank" href="https://www.linkedin.com/in/dcamarmas"
-              class="text-brand-600 hover:underline">LinkedIn</a>
-          </li>
-
-          <li class="flex items-center gap-3">
-            <i class="fa-brands fa-orcid text-brand-600 fa-lg"></i>
-            <a href="https://orcid.org/0000-0001-7561-3619" class="text-brand-600 hover:underline"
-              target="_blank">ORCID</a>
-          </li>
-
-          <li class="flex items-center gap-3">
-            <i class="fa-brands fa-researchgate text-brand-600 fa-lg"></i>
-            <a href="https://www.researchgate.net/profile/Diego-Camarmas-Alonso" class="text-brand-600 hover:underline"
-              target="_blank">ResearchGate</a>
-          </li>
-
-          <li class="flex items-center gap-3">
-            <i class="fa-solid fa-graduation-cap text-brand-600 fa-lg"></i>
-            <a href="https://scholar.google.es/citations?user=5_Jlcn0AAAAJ&hl=es&authuser=1"
-              class="text-brand-600 hover:underline" target="_blank">Google Scholar</a>
-          </li>
-
-          <li class="flex items-center gap-3">
-            <i class="fa-solid fa-book text-brand-600 fa-lg"></i>
-            <a href="https://researchportal.uc3m.es/display/inv47034" class="text-brand-600 hover:underline"
-              target="_blank">Research Portal</a>
-          </li>
-
-          <li class="flex items-center gap-3">
-            <i class="fa-brands fa-github text-brand-600 fa-lg"></i>
-            <a href="https://github.com/dcamarmas" class="text-brand-600 hover:underline"
-              target="_blank">GitHub</a>
-          </li>
-
-          <li class="flex items-center gap-3">
-            <i class="fa-solid fa-handshake text-brand-600 fa-lg"></i>
-            <a href="https://researchportal.uc3m.es/vis/author-network/inv47034" class="text-brand-600 hover:underline"
-              target="_blank">Cooperation</a>
-          </li>
-        </ul>
-      </aside>
-
-    </section>
-
-    <div class="mt-12 grid grid-cols-1 lg:grid-cols-4 gap-10 items-start">
-
-      <aside class="hidden lg:block col-span-1 sticky top-8">
-        <nav class="flex flex-col gap-1 border-l-2 border-gray-100 pl-4">
-          <h3 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">On this page</h3>
-
-          <a href="#about"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">About</a>
-          <a href="#positions"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Positions</a>
-          <a href="#positions"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Education</a>
-          <a href="#publications"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Publications</a>
-          <a href="#projects"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Projects</a>
-          <a href="#teaching"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Teaching</a>
-          <a href="#advisor"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Advisor</a>
-          <a href="#software"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Software & Tools</a>
-          <a href="#seminars"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Seminars & Tutorials</a>
-          <a href="#awards"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Awards</a>
-          <a href="#other"
-            class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Other</a>
-        </nav>
-      </aside>
-
-      <div class="lg:col-span-3">
-
-        <section id="about" class="scroll-mt-12 mb-8">
-          <h2 class="text-2xl font-serif font-bold text-gray-900 mb-4">About</h2>
-          <div class="prose prose-brand max-w-none text-gray-700 font-light leading-relaxed text-justify">
-            <p class="mt-4">
-              Diego Camarmas Alonso is a post-doctoral researcher in the Computer Architecture and Technology area at Universidad Carlos III de Madrid (UC3M) in Spain, where he is a member of the Computer Architecture Research Group (ARCOS) in the Computer Science and Engineering Department.
-            </p>
-
-            <p class="mt-4">
-              His research activity focuses mainly on distributed systems, high-performance computing, file systems, blockchain, IoT device networks, and educational computer architecture simulators. Also, he has participated in the <a href="https://admire-eurohpc.eu/" target="_blank" class="text-brand-600 font-bold hover:underline"
-                title="Open the ADMIRE project website.">ADMIRE</a> and <a href="https://era4tb.org/" target="_blank" class="text-brand-600 font-bold hover:underline"
-                title="Open the ERA4TB project website.">ERA4TB</a> European projects, as well as in several national projects.
-            </p>
-
-            <p class="mt-4">
-              As a result of his research, he is the author of <a href="https://creatorsim.github.io/creator" target="_blank" class="text-brand-600 font-bold hover:underline"
-                title="Open the CREATOR website.">CREATOR</a>, an integrated development environment for assembly-language programming, and of <a href="https://github.com/xpn-arcos/xpn" target="_blank" class="text-brand-600 font-bold hover:underline"
-                title="Open the Expand website.">Expand</a>, a distributed file system. In addition, he is the co-author of more than 30 journal and conference articles.
-            </p>
-          </div>
-        </section>
-
-
-        <div class="flex justify-end mb-4 border-t border-gray-100">
-          <button id="toggle-all-btn"
-            class="text-sm font-medium text-brand-600 hover:text-brand-800 transition flex items-center gap-2 px-4 py-2 bg-white rounded-lg border border-gray-100 shadow-sm hover:shadow-md">
-            <i class="fa-solid fa-angles-down"></i>
-            <span>Expand All</span>
-          </button>
-        </div>
-
-
-        <div class="space-y-4">
-
-          <details id="positions"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Positions</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-            <div class="mt-6 text-gray-700 space-y-4 text-justify">
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Post-doctoral Researcher</h4>
-                    <p class="text-sm text-gray-500">March 2026 - Now</p>
-                    <p class="text-sm text-gray-500">Computer Science and Engineering Department - ARCOS research group</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Research Assistant</h4>
-                    <p class="text-sm text-gray-500">September 2020 - March 2026</p>
-                    <p class="text-sm text-gray-500">Computer Science and Engineering Department - ARCOS research group</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Complete Aid to the Master’s Study</h4>
-                    <p class="text-sm text-gray-500">September 2019 - August 2020</p>
-                    <p class="text-sm text-gray-500">Computer Science and Engineering Department - ARCOS research group</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </details>
-
-
-
-          <details id="education"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Education</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-            <div class="mt-6 text-gray-700 space-y-4 text-justify">
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Ph.D. in Computer Science and Technology</h4>
-                    <p class="text-sm text-gray-500">2020-2026</p>
-                    <p class="text-sm text-gray-500">PhD. Thesis: Adaptive data management in large-scale computing systems</p>
-                    <!--<div class="mt-3 flex gap-3">
-                      <a href="" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-file-pdf text-brand-600 fa-lg"></i> Document</a>
-                    </div>-->
-                  </div>
-                </div>
-              </div>
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">M.Sc. in Computer Science and Technology</h4>
-                    <p class="text-sm text-gray-500">2019-2020</p>
-                    <p class="text-sm text-gray-500">M.Sc. Thesis: Blockchain optimization techniques for Internet of Things technology</p>
-
-                    <!--<div class="mt-3 flex gap-3">
-                      <a href="" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-file-pdf text-brand-600 fa-lg"></i> Document</a>
-                    </div>-->
-                  </div>
-                </div>
-              </div>
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">B.Sc. in Computer Science and Engineering</h4>
-                    <p class="text-sm text-gray-500">Minor in Computer Engineering</p>
-                    <p class="text-sm text-gray-500">2015-2019</p>
-                    <p class="text-sm text-gray-500">B.Sc. Thesis: Design and development of a generic simulator for assembly <br> programming</p>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://hdl.handle.net/10016/29880" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-file-pdf text-brand-600 fa-lg"></i> B.Sc. Thesis</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </details>
-
-
-
-          <details id="publications"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Publications</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-
-            <div id="publications-list" class="mt-6 flex flex-col gap-4">
-              <details class="rounded-lg border border-gray-100 bg-white p-4 [&amp;_summary::-webkit-details-marker]:hidden" open="">
-                <summary class="flex items-center justify-between gap-2 cursor-pointer select-none">
-                  <h3 class="text-lg font-serif font-semibold text-gray-900">Journal Papers</h3>
-                  <span class="relative w-5 h-5 flex-shrink-0">
-                    <i class="fa-solid fa-chevron-down text-gray-400 transition-transform publication-chevron"></i>
-                  </span>
-                </summary>
-
-                <div id="journal-publications-list" class="mt-6 flex flex-col gap-4">
-                  <p class="text-gray-400 italic">Loading publications...</p>
-                </div>
-              </details>
-
-              <details class="rounded-lg border border-gray-100 bg-white p-4 [&amp;_summary::-webkit-details-marker]:hidden">
-                <summary class="flex items-center justify-between gap-2 cursor-pointer select-none">
-                  <h3 class="text-lg font-serif font-semibold text-gray-900">International Conference Papers</h3>
-                  <span class="relative w-5 h-5 flex-shrink-0">
-                    <i class="fa-solid fa-chevron-down text-gray-400 transition-transform publication-chevron"></i>
-                  </span>
-                </summary>
-
-                <div id="international-conference-publications-list" class="mt-6 flex flex-col gap-4">
-                  <p class="text-gray-400 italic">Loading publications...</p>
-                </div>
-              </details>
-
-              <details class="rounded-lg border border-gray-100 bg-white p-4 [&amp;_summary::-webkit-details-marker]:hidden">
-                <summary class="flex items-center justify-between gap-2 cursor-pointer select-none">
-                  <h3 class="text-lg font-serif font-semibold text-gray-900">National Conference Papers</h3>
-                  <span class="relative w-5 h-5 flex-shrink-0">
-                    <i class="fa-solid fa-chevron-down text-gray-400 transition-transform publication-chevron"></i>
-                  </span>
-                </summary>
-
-                <div id="national-conference-publications-list" class="mt-6 flex flex-col gap-4">
-                  <p class="text-gray-400 italic">Loading publications...</p>
-                </div>
-              </details>
-
-            </div>
-
-            <div class="mt-6 pt-4 border-t border-gray-100 text-right">
-              <a target="_blank" href="https://orcid.org/0000-0001-7561-3619"
-                class="text-sm font-medium text-brand-600 hover:text-brand-800 transition"
-                title="Open ORCID in a new tab">
-                View all publications <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
+            <div class="flex flex-col items-center justify-center gap-6 w-full mt-2">
+              <a href="https://www.uc3m.es/home" target="_blank" title="Open the UC3M website."
+                class="transition-transform hover:scale-105 block">
+                <img src="assets/institutions_logos/uc3m.png" alt="Universidad Carlos III de Madrid"
+                  class="w-48 h-auto object-contain transition duration-300">
+              </a>
+              
+              <a href="https://arcos-uc3m.github.io/" target="_blank" title="Open the ARCOS website."
+                class="transition-transform hover:scale-105 block">
+                <img src="assets/institutions_logos/arcos.png" alt="ARCOS Research Group"
+                  class="w-44 h-auto object-contain transition duration-300">
               </a>
             </div>
-          </details>
+          </div>
 
+          <div>
+            <h1 class="font-serif text-3xl md:text-4xl font-bold text-gray-900 mb-2 text-center sm:text-left">
+              Diego Camarmas Alonso
+            </h1>
+            <p class="text-xl text-gray-600 font-light mb-4 text-center sm:text-left">
+              Post-doctoral Researcher
+            </p>
 
+            <p class="text-base text-gray-600 font-light mb-4 text-center sm:text-left">
+              Computer Architecture Research Group (ARCOS) <br> Computer Science and Engineering Department
+            </p>
 
-          <details id="projects"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Projects</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-            <div class="mt-6 text-gray-700 space-y-4 text-justify">
+            <p class="text-base text-gray-600 font-light mb-4 text-center sm:text-left">
+              Universidad Carlos III de Madrid (UC3M)
+            </p>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/projects_logos/era4tb.png" alt="ERA4TB Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">European Regimen Accelerator for Tuberculosis (ERA4TB)</h4>
-                    <p class="text-sm text-gray-500">European Commission Research Executive Agency</p>
-                    <p class="text-sm text-gray-500">2020-2026</p>
-                    <p class="text-sm text-gray-500">Grant: 853989</p>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://era4tb.org" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
-                    </div>
-                  </div>
-                </div>
+            <div class="flex flex-col gap-3 mt-8">
+              <div class="flex items-center gap-3 text-gray-600">
+                <i class="fa-solid fa-envelope w-6 text-center text-gray-500"></i>
+                <span>dcamarma@inf.uc3m.es</span>
               </div>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/projects_logos/admire.png" alt="ADMIRE Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Adaptive multi-tier intelligent data manager for Exascale (ADMIRE)</h4>
-                    <p class="text-sm text-gray-500">European Comission. European Union’s Horizon 2020 JTI-EuroHPC <br> research and innovation programme</p>
-                    <p class="text-sm text-gray-500">2021-2024</p>
-                    <p class="text-sm text-gray-500">Grant: 956748</p>
+              <!--<div class="flex items-center gap-3 text-gray-600">
+                <i class="fa-solid fa-phone w-6 text-center text-gray-500"></i>
+                <span>+34 91 </span>
+              </div>-->
 
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://www.admire-eurohpc.eu" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
-                    </div>
-                  </div>
-                </div>
+              <div class="flex items-center gap-3 text-gray-600">
+                <i class="fa-solid fa-building w-6 text-center text-gray-500"></i>
+                <span>Universidad Carlos III de Madrid (Av. Universidad 30, Leganés, Madrid, Spain)</span>
               </div>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/projects_logos/sciot.png" alt="SCIOT Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Nuevas técnicas escalables de E/S para cargas de trabajo híbridas <br> de HPC e intensivas en datos (SCIOT)</h4>
-                    <p class="text-sm text-gray-500">Agencia estatal de Investigación (AEI)</p>
-                    <p class="text-sm text-gray-500">2023-2026</p>
-                    <p class="text-sm text-gray-500">Grant: PID2022-138050NB-I00</p>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://researchportal.uc3m.es/individual/act560656" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
-                    </div>
-                  </div>
-                </div>
+              <div class="flex items-center gap-3 text-gray-600">
+                <i class="fa-solid fa-location-dot w-6 text-center text-gray-500"></i>
+                <span>Edificio Sabatini, 2.2.B06</span>
               </div>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/projects_logos/creator.png" alt="CREATOR Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Entorno de desarrollo integrado para formación e investigación <br> en procesadores RISC-V</h4>
-                    <p class="text-sm text-gray-500">Agencia estatal de Investigación (AEI). 2023-PERTE CHIP</p>
-                    <p class="text-sm text-gray-500">2024-2025</p>
-                    <p class="text-sm text-gray-500">Grant: PDC2023-145832-I00</p>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://researchportal.uc3m.es/display/act562858" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/projects_logos/expand.png" alt="Expand Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Sistema de almacenamiento de altas prestaciones para entornos <br> HPC y Big Data</h4>
-                    <p class="text-sm text-gray-500">Agencia estatal de Investigación (AEI). Proyectos de transición ecológica y <br> transición digital 2021</p>
-                    <p class="text-sm text-gray-500">2022-2025</p>
-                    <p class="text-sm text-gray-500">Grant: TED2021-131798B-I00</p>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://researchportal.uc3m.es/display/act556234" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/projects_logos/decide.png" alt="DECIDE Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Nuevos métodos en High-end y Edge Computing para la <br> computación intensiva en datos (DECIDE)</h4>
-                    <p class="text-sm text-gray-500">Agencia estatal de Investigación (AEI)</p>
-                    <p class="text-sm text-gray-500">2020-2023</p>
-                    <p class="text-sm text-gray-500">Grant: PID2019-107858GB-I00</p>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://researchportal.uc3m.es/display/act539545" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/projects_logos/cabahla.png" alt="CABAHLA Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">ConvergenciA Big dAta-Hpc: de Los sensores a las Aplicaciones (CABAHLA)</h4>
-                    <p class="text-sm text-gray-500">Comunidad Autónoma de Madrid. Conserjería de educación e investigación</p>
-                    <p class="text-sm text-gray-500">2019-2023</p>
-                    <p class="text-sm text-gray-500">Grant: P2018/TCS-4423</p>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://researchportal.uc3m.es/display/act539173" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+              <a target="_blank"
+                href="https://www.uc3m.es/ss/Satellite/DeptBioingenieria/es/DetallePersonalDept/1371347493955/idu-230055"
+                class="flex items-center gap-3 text-gray-600 hover:text-brand-600 transition group"
+                title="Open the profile at UC3M website.">
+                <i class="fa-solid fa-globe w-6 text-center text-gray-500 group-hover:text-brand-600 transition"></i>
+                <span class="group-hover:underline">UC3M Profile</span>
+              </a>
             </div>
-          </details>
+          </div>
+        </div>
 
+        <aside class="w-full lg:w-72 bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex-shrink-0">
+          <h3 class="text-lg font-semibold text-gray-900 mb-5 border-b pb-2">Links</h3>
+          <ul class="space-y-4 text-sm text-gray-700">
+            <li class="flex items-center gap-3">
+              <i class="fa-brands fa-linkedin text-brand-600 fa-lg"></i>
+              <a target="_blank" href="https://www.linkedin.com/in/dcamarmas"
+                class="text-brand-600 hover:underline">LinkedIn</a>
+            </li>
 
+            <li class="flex items-center gap-3">
+              <i class="fa-brands fa-orcid text-brand-600 fa-lg"></i>
+              <a href="https://orcid.org/0000-0001-7561-3619" class="text-brand-600 hover:underline"
+                target="_blank">ORCID</a>
+            </li>
 
-          <details id="teaching"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Teaching</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-            <div class="mt-6 text-gray-700 space-y-4 text-justify">
+            <li class="flex items-center gap-3">
+              <i class="fa-brands fa-researchgate text-brand-600 fa-lg"></i>
+              <a href="https://www.researchgate.net/profile/Diego-Camarmas-Alonso" class="text-brand-600 hover:underline"
+                target="_blank">ResearchGate</a>
+            </li>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Computer Structure</h4>
-                    <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
-                    <p class="text-sm text-gray-500">Dual Bachelor’s Degree in Computer Engineering and Business Administration</p>
-                    <p class="text-sm text-gray-500">2nd year</p>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2019/2020</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2020/2021</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2021/2022</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2022/2023</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2023/2024</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2024/2025</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2025/2026</span>
-                  </div>
-                </div>
-              </div>
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-graduation-cap text-brand-600 fa-lg"></i>
+              <a href="https://scholar.google.es/citations?user=5_Jlcn0AAAAJ&hl=es&authuser=1"
+                class="text-brand-600 hover:underline" target="_blank">Google Scholar</a>
+            </li>
 
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-book text-brand-600 fa-lg"></i>
+              <a href="https://researchportal.uc3m.es/display/inv47034" class="text-brand-600 hover:underline"
+                target="_blank">Research Portal</a>
+            </li>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Operating Systems</h4>
-                    <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
-                    <p class="text-sm text-gray-500">Dual Bachelor’s Degree in Computer Engineering and Business Administration</p>
-                    <p class="text-sm text-gray-500">2nd year</p>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2019/2020</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2020/2021</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2021/2022</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2022/2023</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2023/2024</span>
-                  </div>
-                </div>
-              </div>
+            <li class="flex items-center gap-3">
+              <i class="fa-brands fa-github text-brand-600 fa-lg"></i>
+              <a href="https://github.com/dcamarmas" class="text-brand-600 hover:underline"
+                target="_blank">GitHub</a>
+            </li>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Distributed Systems</h4>
-                    <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
-                    <p class="text-sm text-gray-500">3rd year</p>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2024/2025</span>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2025/2026</span>
-                  </div>
-                </div>
-              </div>
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-handshake text-brand-600 fa-lg"></i>
+              <a href="javascript:void(0);" id="open-cooperation-modal" class="text-brand-600 hover:underline">
+                  Cooperation
+              </a>
+            </li>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Computer Architecture</h4>
-                    <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
-                    <p class="text-sm text-gray-500">3rd year</p>
-                    <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2019/2020</span>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </details>
-
-
-
-          <details id="advisor"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Advisor</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-            <div class="mt-6 text-gray-700 space-y-4 text-justify">
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Bachelor Thesis</h4>
-                    <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
-                    <p class="text-sm text-gray-500">Near Real-Time, Blockchain-Based Verification System for Health Monitoring <br> Data <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2022/2023</span></p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </details>
-
-
-
-          <details id="software"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Software & Tools</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-            <div class="mt-6 text-gray-700 space-y-4 text-justify">
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/projects_logos/creator.png" alt="Expand Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">CREATOR</h4>
-                    <p class="text-sm text-gray-500">Didactic and Generic Assembly Programming Simulator</p>
-
-                    <div class="mt-1 flex gap-3">
-                      <span class="text-sm" style="padding:2px 8px; border-radius:9999px; background:#edf7ed; color:#1e4620; border:1px solid #c8e6c9; font-weight:500;">LGPL-3.0 (Open Source)</span>
-                    </div>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://github.com/creatorsim" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-brands fa-github text-brand-600 fa-lg"></i> GitHub</a>
-                    </div>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://creatorsim.github.io/creator" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="w-[170px] shrink-0 flex justify-center">
-                    <img src="assets/projects_logos/expand.png" alt="Expand Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
-                  </div>
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Expand</h4>
-                    <p class="text-sm text-gray-500">The Expand Parallel File System</p>
-
-                    <div class="mt-1 flex gap-3">
-                      <span class="text-sm" style="padding:2px 8px; border-radius:9999px; background:#edf7ed; color:#1e4620; border:1px solid #c8e6c9; font-weight:500;">LGPL-3.0 (Open Source)</span>
-                    </div>
-
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://github.com/xpn-arcos" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-brands fa-github text-brand-600 fa-lg"></i> GitHub</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </details>
-
-
-
-          <details id="seminars"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Seminars & Tutorials</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-            <div class="mt-6 text-gray-700 space-y-4 text-justify">
-
-              <div class="p-5 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex flex-col sm:flex-row sm:items-start gap-4">
+            <div id="cooperation-modal" class="custom-modal-overlay">
+              <div class="bg-white rounded-xl shadow-2xl flex flex-col relative overflow-hidden" 
+                   style="width: 90vw !important; height: 90vh !important; max-width: 90vw !important; max-height: 90vh !important;">
                   
-                  <div class="sm:w-24 flex-shrink-0">
-                    <span class="block text-xl font-bold text-gray-400">2026</span>
-                  </div>
-                  
-                  <div class="flex-grow">
-                    <h3 class="text-base font-bold text-gray-900 leading-snug">CREATOR: un entorno de desarrollo integrado para la docencia y la investigación en procesadores RISC-V</h3>
-                    <p class="text-sm text-gray-600 mt-2">Camarmas-Alonso, D., García-Carballeira, F., & Calderón-Mateos, A.</p>
-                    <p class="text-sm text-gray-500 italic mt-1 font-serif">XXXVI Jornadas de Paralelismo (JP26)</p>
-                  </div>
-
+                <div class="px-6 py-4 border-b border-gray-100 flex items-center justify-between bg-gray-50/50 flex-shrink-0">
+                  <h3 class="text-lg font-semibold text-gray-800 flex items-center gap-2">
+                    <i class="fa-solid fa-handshake text-brand-600"></i> Coauthorship Network Diagram
+                  </h3>
+                  <button id="close-cooperation-modal" class="text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-lg p-2 transition-colors border-none bg-transparent cursor-pointer">
+                    <i class="fa-solid fa-xmark fa-lg"></i>
+                  </button>
                 </div>
-              </div>
-
-              <div class="p-5 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex flex-col sm:flex-row sm:items-start gap-4">
-                  
-                  <div class="sm:w-24 flex-shrink-0">
-                    <span class="block text-xl font-bold text-gray-400">2025</span>
-                  </div>
-                  
-                  <div class="flex-grow">
-                    <h3 class="text-base font-bold text-gray-900 leading-snug">CREATOR: un entorno de desarrollo integrado para la docencia y la investigación en procesadores RISC-V</h3>
-                    <p class="text-sm text-gray-600 mt-2">Camarmas-Alonso, D.</p>
-                    <p class="text-sm text-gray-500 italic mt-1 font-serif">XV Seminario de invierno CAPAP-H y III Jornadas RISC-V</p>
-                  </div>
-
+                
+                <div class="modal-body-fullscreen">
+                  <div id="modal-canvas-container" class="absolute inset-0 w-full h-full overflow-hidden"></div>
                 </div>
-              </div>
 
+              </div>
             </div>
-          </details>
+
+          </ul>
+        </aside>
+
+      </section>
+
+      <div class="mt-12 grid grid-cols-1 lg:grid-cols-4 gap-10 items-start">
+
+        <aside class="hidden lg:block col-span-1 sticky top-8">
+          <nav class="flex flex-col gap-1 border-l-2 border-gray-100 pl-4">
+            <h3 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">On this page</h3>
+
+            <a href="#about"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">About</a>
+            <a href="#positions"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Positions</a>
+            <a href="#positions"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Education</a>
+            <a href="#publications"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Publications</a>
+            <a href="#projects"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Projects</a>
+            <a href="#teaching"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Teaching</a>
+            <a href="#advisor"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Advisor</a>
+            <a href="#software"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Software & Tools</a>
+            <a href="#seminars"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Seminars & Tutorials</a>
+            <a href="#awards"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Awards</a>
+            <a href="#other"
+              class="sidebar-link text-sm text-gray-600 hover:text-brand-600 hover:border-brand-600 -ml-[18px] border-l-2 border-transparent pl-4 py-1.5 transition-all font-medium">Other</a>
+          </nav>
+        </aside>
+
+        <div class="lg:col-span-3">
+
+          <section id="about" class="scroll-mt-12 mb-8">
+            <h2 class="text-2xl font-serif font-bold text-gray-900 mb-4">About</h2>
+            <div class="prose prose-brand max-w-none text-gray-700 font-light leading-relaxed text-justify">
+              <p class="mt-4">
+                Diego Camarmas Alonso is a post-doctoral researcher in the Computer Architecture and Technology area at Universidad Carlos III de Madrid (UC3M) in Spain, where he is a member of the Computer Architecture Research Group (ARCOS) in the Computer Science and Engineering Department.
+              </p>
+
+              <p class="mt-4">
+                His research activity focuses mainly on distributed systems, high-performance computing, file systems, blockchain, IoT device networks, and educational computer architecture simulators. Also, he has participated in the <a href="https://admire-eurohpc.eu/" target="_blank" class="text-brand-600 font-bold hover:underline"
+                  title="Open the ADMIRE project website.">ADMIRE</a> and <a href="https://era4tb.org/" target="_blank" class="text-brand-600 font-bold hover:underline"
+                  title="Open the ERA4TB project website.">ERA4TB</a> European projects, as well as in several national projects.
+              </p>
+
+              <p class="mt-4">
+                As a result of his research, he is the author of <a href="https://creatorsim.github.io/creator" target="_blank" class="text-brand-600 font-bold hover:underline"
+                  title="Open the CREATOR website.">CREATOR</a>, an integrated development environment for assembly-language programming, and of <a href="https://github.com/xpn-arcos/xpn" target="_blank" class="text-brand-600 font-bold hover:underline"
+                  title="Open the Expand website.">Expand</a>, a distributed file system. In addition, he is the co-author of more than 30 journal and conference articles.
+              </p>
+            </div>
+          </section>
+
+
+          <div class="flex justify-end mb-4 border-t border-gray-100">
+            <button id="toggle-all-btn"
+              class="text-sm font-medium text-brand-600 hover:text-brand-800 transition flex items-center gap-2 px-4 py-2 bg-white rounded-lg border border-gray-100 shadow-sm hover:shadow-md">
+              <i class="fa-solid fa-angles-down"></i>
+              <span>Expand All</span>
+            </button>
+          </div>
+
+
+          <div class="space-y-4">
+
+            <details id="positions"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Positions</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+              <div class="mt-6 text-gray-700 space-y-4 text-justify">
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Post-doctoral Researcher</h4>
+                      <p class="text-sm text-gray-500">March 2026 - Now</p>
+                      <p class="text-sm text-gray-500">Computer Science and Engineering Department - ARCOS research group</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Research Assistant</h4>
+                      <p class="text-sm text-gray-500">September 2020 - March 2026</p>
+                      <p class="text-sm text-gray-500">Computer Science and Engineering Department - ARCOS research group</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Complete Aid to the Master’s Study</h4>
+                      <p class="text-sm text-gray-500">September 2019 - August 2020</p>
+                      <p class="text-sm text-gray-500">Computer Science and Engineering Department - ARCOS research group</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </details>
 
 
 
-          <details id="awards"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Awards, Grants & Honours</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-            <div class="mt-6 text-gray-700 space-y-4 text-justify">
-              
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Third prize in the 11th edition of the "Tu Tesis en Tres Minutos" T3M-Sarteco 2026 competition</h4>
-                    <p class="text-sm text-gray-500">Sarteco</p>
-                    <p class="text-sm text-gray-500">June 2026</p>
+            <details id="education"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Education</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+              <div class="mt-6 text-gray-700 space-y-4 text-justify">
 
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://sarteco.org/premios-sarteco-2026-t3m-tfm3m" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-newspaper text-brand-600 fa-lg"></i> News</a>
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Ph.D. in Computer Science and Technology</h4>
+                      <p class="text-sm text-gray-500">2020-2026</p>
+                      <p class="text-sm text-gray-500">PhD. Thesis: Adaptive data management in large-scale computing systems</p>
+                      <!--<div class="mt-3 flex gap-3">
+                        <a href="" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-file-pdf text-brand-600 fa-lg"></i> Document</a>
+                      </div>-->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">M.Sc. in Computer Science and Technology</h4>
+                      <p class="text-sm text-gray-500">2019-2020</p>
+                      <p class="text-sm text-gray-500">M.Sc. Thesis: Blockchain optimization techniques for Internet of Things technology</p>
+
+                      <!--<div class="mt-3 flex gap-3">
+                        <a href="" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-file-pdf text-brand-600 fa-lg"></i> Document</a>
+                      </div>-->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">B.Sc. in Computer Science and Engineering</h4>
+                      <p class="text-sm text-gray-500">Minor in Computer Engineering</p>
+                      <p class="text-sm text-gray-500">2015-2019</p>
+                      <p class="text-sm text-gray-500">B.Sc. Thesis: Design and development of a generic simulator for assembly <br> programming</p>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://hdl.handle.net/10016/29880" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-file-pdf text-brand-600 fa-lg"></i> B.Sc. Thesis</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </details>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Complete Aid to the Master's Study</h4>
-                    <p class="text-sm text-gray-500">Universidad Carlos III de Madrid (UC3M)</p>
-                    <p class="text-sm text-gray-500">2019/2020</p>
 
-                    <div class="mt-3 flex gap-3">
-                      <a href="https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobkey=id&blobtable=MungoBlobs&blobwhere=1371567892502&ssbinary=true" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-newspaper text-brand-600 fa-lg"></i> Award document</a>
+
+            <details id="publications"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Publications</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+
+              <div id="publications-list" class="mt-6 flex flex-col gap-4">
+                <details class="rounded-lg border border-gray-100 bg-white p-4 [&amp;_summary::-webkit-details-marker]:hidden" open="">
+                  <summary class="flex items-center justify-between gap-2 cursor-pointer select-none">
+                    <h3 class="text-lg font-serif font-semibold text-gray-900">Journal Papers</h3>
+                    <span class="relative w-5 h-5 flex-shrink-0">
+                      <i class="fa-solid fa-chevron-down text-gray-400 transition-transform publication-chevron"></i>
+                    </span>
+                  </summary>
+
+                  <div id="journal-publications-list" class="mt-6 flex flex-col gap-4">
+                    <p class="text-gray-400 italic">Loading publications...</p>
+                  </div>
+                </details>
+
+                <details class="rounded-lg border border-gray-100 bg-white p-4 [&amp;_summary::-webkit-details-marker]:hidden">
+                  <summary class="flex items-center justify-between gap-2 cursor-pointer select-none">
+                    <h3 class="text-lg font-serif font-semibold text-gray-900">International Conference Papers</h3>
+                    <span class="relative w-5 h-5 flex-shrink-0">
+                      <i class="fa-solid fa-chevron-down text-gray-400 transition-transform publication-chevron"></i>
+                    </span>
+                  </summary>
+
+                  <div id="international-conference-publications-list" class="mt-6 flex flex-col gap-4">
+                    <p class="text-gray-400 italic">Loading publications...</p>
+                  </div>
+                </details>
+
+                <details class="rounded-lg border border-gray-100 bg-white p-4 [&amp;_summary::-webkit-details-marker]:hidden">
+                  <summary class="flex items-center justify-between gap-2 cursor-pointer select-none">
+                    <h3 class="text-lg font-serif font-semibold text-gray-900">National Conference Papers</h3>
+                    <span class="relative w-5 h-5 flex-shrink-0">
+                      <i class="fa-solid fa-chevron-down text-gray-400 transition-transform publication-chevron"></i>
+                    </span>
+                  </summary>
+
+                  <div id="national-conference-publications-list" class="mt-6 flex flex-col gap-4">
+                    <p class="text-gray-400 italic">Loading publications...</p>
+                  </div>
+                </details>
+
+              </div>
+
+              <div class="mt-6 pt-4 border-t border-gray-100 text-right">
+                <a target="_blank" href="https://orcid.org/0000-0001-7561-3619"
+                  class="text-sm font-medium text-brand-600 hover:text-brand-800 transition"
+                  title="Open ORCID in a new tab">
+                  View all publications <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
+                </a>
+              </div>
+            </details>
+
+
+
+            <details id="projects"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Projects</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+              <div class="mt-6 text-gray-700 space-y-4 text-justify">
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/projects_logos/era4tb.png" alt="ERA4TB Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">European Regimen Accelerator for Tuberculosis (ERA4TB)</h4>
+                      <p class="text-sm text-gray-500">European Commission Research Executive Agency</p>
+                      <p class="text-sm text-gray-500">2020-2026</p>
+                      <p class="text-sm text-gray-500">Grant: 853989</p>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://era4tb.org" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-            </div>
-          </details>
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/projects_logos/admire.png" alt="ADMIRE Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Adaptive multi-tier intelligent data manager for Exascale (ADMIRE)</h4>
+                      <p class="text-sm text-gray-500">European Comission. European Union’s Horizon 2020 JTI-EuroHPC <br> research and innovation programme</p>
+                      <p class="text-sm text-gray-500">2021-2024</p>
+                      <p class="text-sm text-gray-500">Grant: 956748</p>
 
-
-
-          <details id="other"
-            class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
-            <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
-              <h2 class="text-2xl font-serif font-bold text-brand-900">Other Research Activities</h2>
-              <span class="relative w-5 h-5 flex-shrink-0">
-                <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
-              </span>
-            </summary>
-            <div class="mt-6 text-gray-700 space-y-4 text-justify">
-              
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Journal Paper Reviewer</h4>
-                    <p class="text-sm text-gray-500">IEEE Transactions on Parallel and Distributed Systems (TPDS) <a href="https://www.computer.org/csdl/journal/td" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
-                    <p class="text-sm text-gray-500">Future Generation Computer Systems (FGCS) <a href="https://www.sciencedirect.com/journal/future-generation-computer-systems" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://www.admire-eurohpc.eu" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
-                <div class="flex-1 px-4 flex items-center">
-                  <div class="px-4">
-                    <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Conference Organization</h4>
-                    <p class="text-sm text-gray-500">Organizing Committee of the conference SARTECO 2026 <a href="https://jornadassarteco.org/?anyo=2026" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
-                    <p class="text-sm text-gray-500">Artifact Evaluation Committee of the EURO-PAR 2026 <a href="https://2026.euro-par.org/calls/artifacts" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
-                    <p class="text-sm text-gray-500">Volunteer of the conference EURO-PAR 2024 <a href="https://2024.euro-par.org/" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/projects_logos/sciot.png" alt="SCIOT Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Nuevas técnicas escalables de E/S para cargas de trabajo híbridas <br> de HPC e intensivas en datos (SCIOT)</h4>
+                      <p class="text-sm text-gray-500">Agencia estatal de Investigación (AEI)</p>
+                      <p class="text-sm text-gray-500">2023-2026</p>
+                      <p class="text-sm text-gray-500">Grant: PID2022-138050NB-I00</p>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://researchportal.uc3m.es/individual/act560656" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/projects_logos/creator.png" alt="CREATOR Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Entorno de desarrollo integrado para formación e investigación <br> en procesadores RISC-V</h4>
+                      <p class="text-sm text-gray-500">Agencia estatal de Investigación (AEI). 2023-PERTE CHIP</p>
+                      <p class="text-sm text-gray-500">2024-2025</p>
+                      <p class="text-sm text-gray-500">Grant: PDC2023-145832-I00</p>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://researchportal.uc3m.es/display/act562858" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/projects_logos/expand.png" alt="Expand Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Sistema de almacenamiento de altas prestaciones para entornos <br> HPC y Big Data</h4>
+                      <p class="text-sm text-gray-500">Agencia estatal de Investigación (AEI). Proyectos de transición ecológica y <br> transición digital 2021</p>
+                      <p class="text-sm text-gray-500">2022-2025</p>
+                      <p class="text-sm text-gray-500">Grant: TED2021-131798B-I00</p>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://researchportal.uc3m.es/display/act556234" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/projects_logos/decide.png" alt="DECIDE Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Nuevos métodos en High-end y Edge Computing para la <br> computación intensiva en datos (DECIDE)</h4>
+                      <p class="text-sm text-gray-500">Agencia estatal de Investigación (AEI)</p>
+                      <p class="text-sm text-gray-500">2020-2023</p>
+                      <p class="text-sm text-gray-500">Grant: PID2019-107858GB-I00</p>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://researchportal.uc3m.es/display/act539545" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/projects_logos/cabahla.png" alt="CABAHLA Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">ConvergenciA Big dAta-Hpc: de Los sensores a las Aplicaciones (CABAHLA)</h4>
+                      <p class="text-sm text-gray-500">Comunidad Autónoma de Madrid. Conserjería de educación e investigación</p>
+                      <p class="text-sm text-gray-500">2019-2023</p>
+                      <p class="text-sm text-gray-500">Grant: P2018/TCS-4423</p>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://researchportal.uc3m.es/display/act539173" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
+            </details>
 
-            </div>
-          </details>
 
-  </main>
 
-  <div id="footer-container"></div>
+            <details id="teaching"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Teaching</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+              <div class="mt-6 text-gray-700 space-y-4 text-justify">
 
-</body>
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Computer Structure</h4>
+                      <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
+                      <p class="text-sm text-gray-500">Dual Bachelor’s Degree in Computer Engineering and Business Administration</p>
+                      <p class="text-sm text-gray-500">2nd year</p>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2019/2020</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2020/2021</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2021/2022</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2022/2023</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2023/2024</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2024/2025</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2025/2026</span>
+                    </div>
+                  </div>
+                </div>
 
-<script src="scripts/menu.js"></script>
-<script src="scripts/sections_loader.js"></script>
-<script src="scripts/publications.js"></script>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Operating Systems</h4>
+                      <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
+                      <p class="text-sm text-gray-500">Dual Bachelor’s Degree in Computer Engineering and Business Administration</p>
+                      <p class="text-sm text-gray-500">2nd year</p>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2019/2020</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2020/2021</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2021/2022</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2022/2023</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2023/2024</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Distributed Systems</h4>
+                      <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
+                      <p class="text-sm text-gray-500">3rd year</p>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2024/2025</span>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2025/2026</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Computer Architecture</h4>
+                      <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
+                      <p class="text-sm text-gray-500">3rd year</p>
+                      <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2019/2020</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </details>
+
+
+
+            <details id="advisor"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Advisor</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+              <div class="mt-6 text-gray-700 space-y-4 text-justify">
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/institutions_logos/uc3m.png" alt="UC3M Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Bachelor Thesis</h4>
+                      <p class="text-sm text-gray-500">Bachelor’s Degree in Computer Engineering</p>
+                      <p class="text-sm text-gray-500">Near Real-Time, Blockchain-Based Verification System for Health Monitoring <br> Data <span style="font-size:0.69rem;padding:2px 8px;border-radius:9999px;background:#f3f4f6;color:#374151;border:1px solid #e5e7eb;font-weight:500;">2022/2023</span></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </details>
+
+
+
+            <details id="software"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Software & Tools</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+              <div class="mt-6 text-gray-700 space-y-4 text-justify">
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/projects_logos/creator.png" alt="Expand Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">CREATOR</h4>
+                      <p class="text-sm text-gray-500">Didactic and Generic Assembly Programming Simulator</p>
+
+                      <div class="mt-1 flex gap-3">
+                        <span class="text-sm" style="padding:2px 8px; border-radius:9999px; background:#edf7ed; color:#1e4620; border:1px solid #c8e6c9; font-weight:500;">LGPL-3.0 (Open Source)</span>
+                      </div>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://github.com/creatorsim" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-brands fa-github text-brand-600 fa-lg"></i> GitHub</a>
+                      </div>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://creatorsim.github.io/creator" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-globe text-brand-600 fa-lg"></i> Web page</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="w-[170px] shrink-0 flex justify-center">
+                      <img src="assets/projects_logos/expand.png" alt="Expand Logo" style="max-width:100%; height: 63px;" class="pl-5"/>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Expand</h4>
+                      <p class="text-sm text-gray-500">The Expand Parallel File System</p>
+
+                      <div class="mt-1 flex gap-3">
+                        <span class="text-sm" style="padding:2px 8px; border-radius:9999px; background:#edf7ed; color:#1e4620; border:1px solid #c8e6c9; font-weight:500;">LGPL-3.0 (Open Source)</span>
+                      </div>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://github.com/xpn-arcos" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-brands fa-github text-brand-600 fa-lg"></i> GitHub</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </details>
+
+
+
+            <details id="seminars"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Seminars & Tutorials</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+              <div class="mt-6 text-gray-700 space-y-4 text-justify">
+
+                <div class="p-5 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex flex-col sm:flex-row sm:items-start gap-4">
+                    
+                    <div class="sm:w-24 flex-shrink-0">
+                      <span class="block text-xl font-bold text-gray-400">2026</span>
+                    </div>
+                    
+                    <div class="flex-grow">
+                      <h3 class="text-base font-bold text-gray-900 leading-snug">CREATOR: un entorno de desarrollo integrado para la docencia y la investigación en procesadores RISC-V</h3>
+                      <p class="text-sm text-gray-600 mt-2">Camarmas-Alonso, D., García-Carballeira, F., & Calderón-Mateos, A.</p>
+                      <p class="text-sm text-gray-500 italic mt-1 font-serif">XXXVI Jornadas de Paralelismo (JP26)</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="p-5 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex flex-col sm:flex-row sm:items-start gap-4">
+                    
+                    <div class="sm:w-24 flex-shrink-0">
+                      <span class="block text-xl font-bold text-gray-400">2025</span>
+                    </div>
+                    
+                    <div class="flex-grow">
+                      <h3 class="text-base font-bold text-gray-900 leading-snug">CREATOR: un entorno de desarrollo integrado para la docencia y la investigación en procesadores RISC-V</h3>
+                      <p class="text-sm text-gray-600 mt-2">Camarmas-Alonso, D.</p>
+                      <p class="text-sm text-gray-500 italic mt-1 font-serif">XV Seminario de invierno CAPAP-H y III Jornadas RISC-V</p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </details>
+
+
+
+            <details id="awards"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Awards, Grants & Honours</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+              <div class="mt-6 text-gray-700 space-y-4 text-justify">
+                
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Third prize in the 11th edition of the "Tu Tesis en Tres Minutos" T3M-Sarteco 2026 competition</h4>
+                      <p class="text-sm text-gray-500">Sarteco</p>
+                      <p class="text-sm text-gray-500">June 2026</p>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://sarteco.org/premios-sarteco-2026-t3m-tfm3m" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-newspaper text-brand-600 fa-lg"></i> News</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Complete Aid to the Master's Study</h4>
+                      <p class="text-sm text-gray-500">Universidad Carlos III de Madrid (UC3M)</p>
+                      <p class="text-sm text-gray-500">2019/2020</p>
+
+                      <div class="mt-3 flex gap-3">
+                        <a href="https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobkey=id&blobtable=MungoBlobs&blobwhere=1371567892502&ssbinary=true" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-newspaper text-brand-600 fa-lg"></i> Award document</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </details>
+
+
+
+            <details id="other"
+              class="group bg-white rounded-lg border border-gray-100 p-6 [&_summary::-webkit-details-marker]:hidden scroll-mt-12">
+              <summary class="flex items-center justify-between gap-1.5 text-gray-900 cursor-pointer">
+                <h2 class="text-2xl font-serif font-bold text-brand-900">Other Research Activities</h2>
+                <span class="relative w-5 h-5 flex-shrink-0">
+                  <i class="fa-solid fa-chevron-down group-open:-rotate-180 text-gray-400 transition-transform"></i>
+                </span>
+              </summary>
+              <div class="mt-6 text-gray-700 space-y-4 text-justify">
+                
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Journal Paper Reviewer</h4>
+                      <p class="text-sm text-gray-500">IEEE Transactions on Parallel and Distributed Systems (TPDS) <a href="https://www.computer.org/csdl/journal/td" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                      <p class="text-sm text-gray-500">Future Generation Computer Systems (FGCS) <a href="https://www.sciencedirect.com/journal/future-generation-computer-systems" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group flex items-center justify-between p-4 rounded-lg border border-gray-100 bg-gray-50 hover:bg-white hover:shadow-md hover:border-brand-200 transition-all">
+                  <div class="flex-1 px-4 flex items-center">
+                    <div class="px-4">
+                      <h4 class="font-bold text-gray-800 group-hover:text-brand-600 transition">Conference Organization</h4>
+                      <p class="text-sm text-gray-500">Organizing Committee of the conference SARTECO 2026 <a href="https://jornadassarteco.org/?anyo=2026" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                      <p class="text-sm text-gray-500">Artifact Evaluation Committee of the EURO-PAR 2026 <a href="https://2026.euro-par.org/calls/artifacts" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                      <p class="text-sm text-gray-500">Volunteer of the conference EURO-PAR 2024 <a href="https://2024.euro-par.org/" target="_blank" class="text-xs font-medium text-brand-600 hover:text-brand-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </details>
+
+    </main>
+
+    <div id="footer-container"></div>
+
+  </body>
+
+  <script src="scripts/menu.js"></script>
+  <script src="scripts/cooperation_graph.js"></script>
+  <script src="scripts/sections_loader.js"></script>
+  <script src="scripts/publications.js"></script>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    .custom-modal-overlay {
+      display: none; 
+      position: fixed;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      z-index: 99999 !important;
+      background-color: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+      
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .custom-modal-overlay.is-active {
+      display: flex !important;
+    }
+    
+    .modal-body-fullscreen {
+        position: relative;
+        width: 100% !important;
+        height: calc(90vh - 61px); 
+        background-color: #ffffff;
+    }
+  </style>
 
 </html>
