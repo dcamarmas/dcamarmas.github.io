@@ -7,12 +7,22 @@
 
   <title>Diego Camarmas Alonso</title>
 
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="icon" type="image/svg" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/tailwind/output.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@300;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script>
+    // global objects for this profile.
+    window.PROFILE_CONFIG = {
+      memberId: "dcamarma",
+      searchName: "Camarmas",  // El nombre que usaremos para filtrar publicaciones
+    };
+  </script>
+
+  <script src="scripts/components.js"></script>
 </head>
 
 <body class="bg-gray-50 text-gray-800 font-sans antialiased">
@@ -336,6 +346,14 @@
 
             <div id="publications-list" class="mt-6 flex flex-col gap-4">
               <p class="text-gray-400 italic">Loading publications...</p>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-gray-100 text-right">
+              <a target="_blank" href="https://orcid.org/0000-0001-7561-3619"
+                class="text-sm font-medium text-brand-600 hover:text-brand-800 transition"
+                title="Open ORCID in a new tab">
+                View all publications <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
+              </a>
             </div>
           </details>
 
@@ -792,6 +810,8 @@
 
 </body>
 
-<script src="scripts/sections-loader.js"></script>
+<script src="scripts/menu.js"></script>
+<script src="scripts/sections_loader.js"></script>
+<script src="scripts/publications.js"></script>
 
 </html>
