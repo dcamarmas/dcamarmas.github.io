@@ -56,13 +56,13 @@
     "type": "nat_conference",
     "badge": "Conference",
     "title": "Entorno para el modelado y simulación de sistemas electrónicos digitales",
-    "authorsDisplay": "Jose Antonio, V., Alvaro, G., Camarmas Alonso, D., Garcia Carballeira, F., & Calderon Mateos, A.",
-    "authorsData": "Jose Antonio, Alvaro, Camarmas Alonso, Garcia Carballeira, Calderon Mateos",
+    "authorsDisplay": "Verde Jimenez, J. A., Guerrero Espinosa, A., Camarmas Alonso, D., Garcia Carballeira, F., & Calderon Mateos, A.",
+    "authorsData": "Verde Jimenez, Guerrero Espinosa, Camarmas Alonso, Garcia Carballeira, Calderon Mateos",
     "venue": "XXXVI Jornadas de Paralelismo (JP26), Zenodo.",
     "doi": "10.5281/ZENODO.21073524",
     "url": "https://zenodo.org/doi/10.5281/zenodo.21073524",
     "key": "https://doi.org/10.5281/zenodo.21073524",
-    "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.21073524,\n  author = {Jose Antonio, Verde-Jimenez and Alvaro, Guerrero-Espinosa and Camarmas Alonso, Diego and Garcia Carballeira, Felix and Calderon Mateos, Alejandro},\n  title = {Entorno para el modelado y simulación de sistemas electrónicos digitales},\n  year = {2026},\n  booktitle = {XXXVI Jornadas de Paralelismo (JP26)},\n  doi = {10.5281/ZENODO.21073524},\n  url = {https://zenodo.org/doi/10.5281/zenodo.21073524},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Simulador, circuitos digitales, HDL},\n  language = {es}\n}"
+    "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.21073524,\n  author = {Verde Jimenez, Jose Antonio and Guerrero Espinosa, Alvaro and Camarmas Alonso, Diego and Garcia Carballeira, Felix and Calderon Mateos, Alejandro},\n  title = {Entorno para el modelado y simulación de sistemas electrónicos digitales},\n  year = {2026},\n  booktitle = {XXXVI Jornadas de Paralelismo (JP26)},\n  doi = {10.5281/ZENODO.21073524},\n  url = {https://zenodo.org/doi/10.5281/zenodo.21073524},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Simulador, circuitos digitales, HDL},\n  language = {es}\n}"
   },
   {
     "year": 2026,
@@ -277,13 +277,13 @@
     "type": "journal",
     "badge": "Journal",
     "title": "CREATOR: An Educational Integrated Development Environment for RISC-V Programming",
-    "authorsDisplay": "Alonso, D. C., Camarmas-Alonso, D., Garcia-Carballeira, F., Calderon-Mateos, A., & del-Pozo-Puñal, E.",
-    "authorsData": "Alonso, Camarmas-Alonso, Garcia-Carballeira, Calderon-Mateos, del-Pozo-Puñal",
+    "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Calderon-Mateos, A., & del-Pozo-Puñal, E.",
+    "authorsData": "Camarmas-Alonso, Garcia-Carballeira, Calderon-Mateos, del-Pozo-Puñal",
     "venue": "IEEE Access.",
     "doi": "10.1109/ACCESS.2024.3406935",
     "url": "http://doi.org/10.1109/ACCESS.2024.3406935",
     "key": "Diego_Camarmas_Alonso_160534919",
-    "bibtex": "@article{Diego_Camarmas_Alonso_160534919,\n  author = {Diego Camarmas Alonso and Diego Camarmas-Alonso and Felix Garcia-Carballeira and Alejandro Calderon-Mateos and Elias del-Pozo-Pu{\\~n}al},\n  title = {CREATOR: An Educational Integrated Development Environment for RISC-V Programming},\n  year = {2024},\n  journal = {IEEE Access},\n  doi = {10.1109/ACCESS.2024.3406935},\n  url = {http://doi.org/10.1109/ACCESS.2024.3406935}\n}"
+    "bibtex": "@article{Diego_Camarmas_Alonso_160534919,\n  author = {Diego Camarmas-Alonso and Felix Garcia-Carballeira and Alejandro Calderon-Mateos and Elias del-Pozo-Pu{\\~n}al},\n  title = {CREATOR: An Educational Integrated Development Environment for RISC-V Programming},\n  year = {2024},\n  journal = {IEEE Access},\n  doi = {10.1109/ACCESS.2024.3406935},\n  url = {http://doi.org/10.1109/ACCESS.2024.3406935}\n}"
   },
   {
     "year": 2024,
@@ -381,13 +381,13 @@
     "type": "nat_conference",
     "badge": "Conference",
     "title": "Sistema de almacenamiento Ad-Hoc para entornos HPC basado en el sistema de ficheros paralelo Expand",
-    "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Mateos, A. C., & Perez, J. C.",
-    "authorsData": "Camarmas-Alonso, Garcia-Carballeira, Mateos, Perez",
+    "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Calderon Mateos, A., & Carretero, J.",
+    "authorsData": "Camarmas-Alonso, Garcia-Carballeira, Calderon Mateos, Carretero",
     "venue": "XXXII Jornadas de Paralelismo (JP22), Zenodo.",
     "doi": "10.5281/ZENODO.6862882",
     "url": "https://zenodo.org/record/6862882",
     "key": "https://doi.org/10.5281/zenodo.6862882",
-    "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.6862882,\n  author = {Camarmas-Alonso, Diego and Garcia-Carballeira, Felix and Mateos, Alejandro Calderon and Perez, Jesus Carretero},\n  title = {Sistema de almacenamiento Ad-Hoc para entornos HPC basado en el sistema de ficheros paralelo Expand},\n  year = {2022},\n  booktitle = {XXXII Jornadas de Paralelismo (JP22)},\n  doi = {10.5281/ZENODO.6862882},\n  url = {https://zenodo.org/record/6862882},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Sistema de ficheros paralelo y distribuido, Almacenamiento HPC, Expand, GekkoFS, Expand Ad-Hoc},\n  language = {es}\n}"
+    "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.6862882,\n  author = {Camarmas-Alonso, Diego and Garcia-Carballeira, Felix and Calderon Mateos, Alejandro and Carretero, Jesus},\n  title = {Sistema de almacenamiento Ad-Hoc para entornos HPC basado en el sistema de ficheros paralelo Expand},\n  year = {2022},\n  booktitle = {XXXII Jornadas de Paralelismo (JP22)},\n  doi = {10.5281/ZENODO.6862882},\n  url = {https://zenodo.org/record/6862882},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Sistema de ficheros paralelo y distribuido, Almacenamiento HPC, Expand, GekkoFS, Expand Ad-Hoc},\n  language = {es}\n}"
   },
   {
     "year": 2022,
@@ -407,26 +407,26 @@
     "type": "conference",
     "badge": "Conference",
     "title": "A new generic simulator for the teaching of assembly programming",
-    "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Del-Pozo-Punal, E., & Mateos, A. C.",
-    "authorsData": "Camarmas-Alonso, Garcia-Carballeira, Del-Pozo-Punal, Mateos",
+    "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Del-Pozo-Punal, E., & Calderon-Mateos, A.",
+    "authorsData": "Camarmas-Alonso, Garcia-Carballeira, Del-Pozo-Punal, Calderon-Mateos",
     "venue": "2021 XLVII Latin American Computing Conference (CLEI), IEEE.",
     "doi": "10.1109/clei53233.2021.9640144",
     "url": "https://doi.org/10.1109%2Fclei53233.2021.9640144",
     "key": "Camarmas_Alonso_2021",
-    "bibtex": "@inproceedings{Camarmas_Alonso_2021,\n  author = {Diego Camarmas-Alonso and Felix Garcia-Carballeira and Elias Del-Pozo-Punal and Alejandro Calderon Mateos},\n  title = {A new generic simulator for the teaching of assembly programming},\n  year = {2021},\n  booktitle = {2021 {XLVII} Latin American Computing Conference ({CLEI})},\n  doi = {10.1109/clei53233.2021.9640144},\n  url = {https://doi.org/10.1109%2Fclei53233.2021.9640144},\n  publisher = {{IEEE}}\n}"
+    "bibtex": "@inproceedings{Camarmas_Alonso_2021,\n  author = {Diego Camarmas-Alonso and Felix Garcia-Carballeira and Elias Del-Pozo-Punal and Alejandro Calderon-Mateos},\n  title = {A new generic simulator for the teaching of assembly programming},\n  year = {2021},\n  booktitle = {2021 {XLVII} Latin American Computing Conference ({CLEI})},\n  doi = {10.1109/clei53233.2021.9640144},\n  url = {https://doi.org/10.1109%2Fclei53233.2021.9640144},\n  publisher = {{IEEE}}\n}"
   },
   {
     "year": 2021,
     "type": "nat_conference",
     "badge": "Conference",
     "title": "CREATOR: Simulador didáctico y genérico para la programación en ensamblador",
-    "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Del-Pozo-Puñal, E., & Mateos, A. C.",
-    "authorsData": "Camarmas-Alonso, Garcia-Carballeira, Del-Pozo-Puñal, Mateos",
+    "authorsDisplay": "Camarmas-Alonso, D., Garcia-Carballeira, F., Del-Pozo-Puñal, E., & Calderon-Mateos, A.",
+    "authorsData": "Camarmas-Alonso, Garcia-Carballeira, Del-Pozo-Puñal, Calderon-Mateos",
     "venue": "XXXI Jornadas de Paralelismo (JP20/21), Zenodo.",
     "doi": "10.5281/ZENODO.5130302",
     "url": "https://zenodo.org/record/5130302",
     "key": "https://doi.org/10.5281/zenodo.5130302",
-    "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.5130302,\n  author = {Camarmas-Alonso, Diego and Garcia-Carballeira, Felix and Del-Pozo-Puñal, Elias and Mateos, Alejandro Calderon},\n  title = {CREATOR: Simulador didáctico y genérico para la programación en ensamblador},\n  year = {2021},\n  booktitle = {XXXI Jornadas de Paralelismo (JP20/21)},\n  doi = {10.5281/ZENODO.5130302},\n  url = {https://zenodo.org/record/5130302},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Estructura de Computadores, Arquitectura de Computadores, Programación en ensamblador, MIPS32, RISC-V32},\n  language = {es}\n}"
+    "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.5130302,\n  author = {Camarmas-Alonso, Diego and Garcia-Carballeira, Felix and Del-Pozo-Puñal, Elias and Calderon-Mateos, Alejandro},\n  title = {CREATOR: Simulador didáctico y genérico para la programación en ensamblador},\n  year = {2021},\n  booktitle = {XXXI Jornadas de Paralelismo (JP20/21)},\n  doi = {10.5281/ZENODO.5130302},\n  url = {https://zenodo.org/record/5130302},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Estructura de Computadores, Arquitectura de Computadores, Programación en ensamblador, MIPS32, RISC-V32},\n  language = {es}\n}"
   },
   {
     "year": 2021,
