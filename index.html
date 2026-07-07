@@ -9,6 +9,7 @@
 
     <link rel="icon" type="image/svg" href="assets/favicon.svg">
     <link rel="stylesheet" href="assets/tailwind/output.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@300;700&display=swap"
       rel="stylesheet">
@@ -359,7 +360,7 @@
                     </span>
                   </summary>
 
-                  <div id="journal-publications-list" class="mt-6 flex flex-col gap-4">
+                  <div id="journal-publications-list" class="publications-scrollable mt-6 flex flex-col gap-4">
                     <p class="text-gray-400 italic">Loading publications...</p>
                   </div>
                 </details>
@@ -372,7 +373,7 @@
                     </span>
                   </summary>
 
-                  <div id="international-conference-publications-list" class="mt-6 flex flex-col gap-4">
+                  <div id="international-conference-publications-list" class="publications-scrollable mt-6 flex flex-col gap-4">
                     <p class="text-gray-400 italic">Loading publications...</p>
                   </div>
                 </details>
@@ -385,7 +386,7 @@
                     </span>
                   </summary>
 
-                  <div id="national-conference-publications-list" class="mt-6 flex flex-col gap-4">
+                  <div id="national-conference-publications-list" class="publications-scrollable mt-6 flex flex-col gap-4">
                     <p class="text-gray-400 italic">Loading publications...</p>
                   </div>
                 </details>
@@ -828,50 +829,5 @@
   <script src="scripts/publications.js"></script>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
-
-  <style>
-    @media (min-width: 768px) {
-      .force-quarter {
-        width: 25% !important;
-        max-width: 25% !important;
-        flex: 0 0 25% !important;
-      }
-      .force-three-quarters {
-        width: 75% !important;
-        max-width: 75% !important;
-        flex: 0 0 75% !important;
-      }
-    }
-
-    .custom-modal-overlay {
-      display: none; 
-      position: fixed;
-      top: 0 !important;
-      left: 0 !important;
-      right: 0 !important;
-      bottom: 0 !important;
-      width: 100vw !important;
-      height: 100vh !important;
-      z-index: 99999 !important;
-      background-color: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(4px);
-      
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-    }
-    .custom-modal-overlay.is-active {
-      display: flex !important;
-    }
-    
-    .modal-body-fullscreen {
-        position: relative;
-        width: 100% !important;
-        height: calc(90vh - 61px); 
-        background-color: #ffffff;
-    }
-
-
-  </style>
 
 </html>
