@@ -96,10 +96,8 @@
           </div>
 
           <div class="flex-grow">
-            <h3 class="text-base font-bold text-gray-900 leading-snug">
-              ${titleLink
-                ? `<a href="${titleLink}" target="_blank" rel="noopener noreferrer" class="hover:underline text-brand-600">${pub.title}</a>`
-                : pub.title}
+            <h3 class="font-bold text-brand-600">
+              ${pub.title}
             </h3>
             <p class="text-sm text-gray-600 mt-2">${pub.authorsDisplay}</p>
             <p class="text-sm text-gray-500 italic mt-1 font-serif">${pub.venue}</p>
