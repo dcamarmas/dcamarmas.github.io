@@ -208,21 +208,21 @@
     "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.15773179,\n  author = {Del Pozo Puñal, Elías and Garcia Carballeira, Felix and Camarmas Alonso, Diego and Calderon Mateos, Alejandro},\n  title = {Sistema de almacenamiento para computing continuum: aplicación a sistemas de información ferroviaria},\n  year = {2025},\n  booktitle = {XXXV Jornadas de Paralelismo (JP25)},\n  doi = {10.5281/ZENODO.15773179},\n  url = {https://zenodo.org/doi/10.5281/zenodo.15773179},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Internet of Things, Computing continuum, MQTT, Sistema de almacenamiento distribuido, Ansible},\n  language = {es}\n}"
   },
   {
-    "year": 2025,
-    "type": "nat_conference",
-    "badge": "Conference",
+    "year": 2023,
+    "type": "conference",
+    "badge": "Workshop",
     "title": "ENIGMA: A Scalable Simulator for IoT and Edge Computing",
     "authorsDisplay": "Del Pozo Puñal, E., Garcia-Carballeira, F., & Camarmas Alonso, D.",
     "authorsData": "Del Pozo Puñal, Garcia-Carballeira, Camarmas Alonso",
-    "venue": "XXXV Jornadas de Paralelismo (JP25), Zenodo.",
+    "venue": "31st Euromicro International Conference on Parallel, Distributed, and Network-Based Processing, Zenodo.",
     "doi": "10.5281/ZENODO.15476670",
     "url": "https://zenodo.org/doi/10.5281/zenodo.15476670",
-    "key": "https://doi.org/10.5281/zenodo.15476670",
-    "bibtex": "@inproceedings{https://doi.org/10.5281/zenodo.15476670,\n  author = {Del Pozo Puñal, Elías and Garcia-Carballeira, Felix and Camarmas Alonso, Diego},\n  title = {ENIGMA: A Scalable Simulator for IoT and Edge Computing},\n  year = {2025},\n  booktitle = {XXXV Jornadas de Paralelismo (JP25)},\n  doi = {10.5281/ZENODO.15476670},\n  url = {https://zenodo.org/doi/10.5281/zenodo.15476670},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Internet of Things, Simulation, Fog and Cloud Computing, Mobility, Scalability},\n  language = {en}\n}"
+    "key": "enigma_pdp",
+    "bibtex": "@inproceedings{enigma_pdp,\n  author = {Del Pozo Puñal, Elías and Garcia-Carballeira, Felix and Camarmas Alonso, Diego},\n  title = {ENIGMA: A Scalable Simulator for IoT and Edge Computing},\n  year = {2023},\n  booktitle = {31st Euromicro International Conference on Parallel, Distributed, and Network-Based Processing},\n  doi = {10.5281/ZENODO.15476670},\n  url = {https://zenodo.org/doi/10.5281/zenodo.15476670},\n  publisher = {Zenodo},\n  copyright = {Creative Commons Attribution 4.0 International},\n  keywords = {Internet of Things, Simulation, Fog and Cloud Computing, Mobility, Scalability},\n  language = {en}\n}"
   },
   {
     "year": 2025,
-    "type": "workshop",
+    "type": "conference",
     "badge": "Workshop",
     "title": "Malleability in the Expand Ad-Hoc Parallel File System",
     "authorsDisplay": "Muñoz-Muñoz, D., Garcia-Carballeira, F., Camarmas-Alonso, D., Calderon-Mateos, A., & Carretero, J.",
@@ -368,13 +368,13 @@
     "type": "conference",
     "badge": "Conference",
     "title": "CREATOR: a tool for teaching assembly programming with RISC-V",
-    "authorsDisplay": "Alonso, D. C., Garcia-Carballeira, F., Calderon-Mateos, A., Alonso, D. C., & Del-Pozo-Puñal, E.",
-    "authorsData": "Alonso, Garcia-Carballeira, Calderon-Mateos, Alonso, Del-Pozo-Puñal",
+    "authorsDisplay": "Garcia-Carballeira, F., Camarmas-Alonso, D., Caderon-Mateos, A., & Del-Pozo-Punal, E.",
+    "authorsData": "Garcia-Carballeira, Camarmas-Alonso, Caderon-Mateos, Del-Pozo-Punal",
     "venue": "RISC-V Summit Europe 2023.",
-    "doi": "",
-    "url": "",
+    "doi": "10.13140/RG.2.2.11287.34721",
+    "url": "https://doi.org/10.13140/RG.2.2.11287.34721",
     "key": "Diego_Camarmas_Alonso_148643847",
-    "bibtex": "@conference{Diego_Camarmas_Alonso_148643847,\n  author = {Diego Camarmas Alonso and F{\\'e}lix Garcia-Carballeira and Alejandro Calderon-Mateos and Diego Camarmas Alonso and El{\\'i}as Del-Pozo-Pu{\\~n}al},\n  title = {CREATOR: a tool for teaching assembly programming with RISC-V},\n  year = {2023},\n  journal = {RISC-V Summit Europe 2023}\n}"
+    "bibtex": "@inproceedings{Diego_Camarmas_Alonso_148643847,\n  author = {Felix Garcia-Carballeira and Diego Camarmas-Alonso and Alejandro Caderon-Mateos and Elias Del-Pozo-Punal},\n  title = {CREATOR: a tool for teaching assembly programming with RISC-V},\n  year = {2023},\n  booktitle = {RISC-V Summit Europe 2023},\n  doi = {10.13140/RG.2.2.11287.34721},\n  url = {https://doi.org/10.13140/RG.2.2.11287.34721}\n}"
   },
   {
     "year": 2022,
@@ -440,5 +440,18 @@
     "url": "https://doi.org/10.1007%2Fs10586-021-03252-0",
     "key": "Martinez_Rendon_2021",
     "bibtex": "@article{Martinez_Rendon_2021,\n  author = {Cristhian Martinez-Rendon and Diego Camarmas-Alonso and Jesus Carretero and Jose L. Gonzalez-Compean},\n  title = {On the continuous contract verification using blockchain and real-time data},\n  year = {2021},\n  journal = {Cluster Computing},\n  doi = {10.1007/s10586-021-03252-0},\n  url = {https://doi.org/10.1007%2Fs10586-021-03252-0},\n  publisher = {Springer Science and Business Media {LLC}}\n}"
+  },
+  {
+    "year": 2021,
+    "type": "nat_conference",
+    "badge": "Workshop",
+    "title": "Validación de contratos en tiempo real de cadenas de suministro aplicando técnicas optimizadas en la tecnología Blockchain",
+    "authorsDisplay": "Martinez-Rendon, C., Camarmas-Alonso, D., Carretero, J., & Gonzalez-Compean, J. L.",
+    "authorsData": "Martinez-Rendon, Camarmas-Alonso, Carretero, Gonzalez-Compean",
+    "venue": "XXXI Jornadas de Paralelismo (JP20/21), Zenodo.",
+    "doi": "",
+    "url": "",
+    "key": "bockchain_sarteco_workshop",
+    "bibtex": "@inproceedings{bockchain_sarteco_workshop,\n  author = {Cristhian Martinez-Rendon and Diego Camarmas-Alonso and Jesus Carretero and Jose L. Gonzalez-Compean},\n  title = {Validación de contratos en tiempo real de cadenas de suministro aplicando técnicas optimizadas en la tecnología Blockchain},\n  year = {2021},\n  booktitle = {XXXI Jornadas de Paralelismo (JP20/21)},\n  publisher = {Zenodo},\n  language = {es}\n}"
   }
 ]

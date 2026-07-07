@@ -4,7 +4,7 @@
   const DEFAULT_PUBLICATIONS_PATH = 'content/publications/publications.json';
 
   function getTypeClasses(type) {
-    if (type === 'journal') {
+    if (type === 'Journal') {
       return {
         border: 'border-green-600',
         badgeText: 'text-green-700',
@@ -12,7 +12,7 @@
       };
     }
 
-    if (type === 'conference' || type === 'nat_conference') {
+    if (type === 'Conference') {
       return {
         border: 'border-blue-500',
         badgeText: 'text-blue-700',
@@ -20,7 +20,7 @@
       };
     }
 
-    if (type === 'workshop') {
+    if (type === 'Workshop') {
       return {
         border: 'border-orange-500',
         badgeText: 'text-orange-700',
@@ -79,7 +79,7 @@
   }
 
   function renderPublication(pub) {
-    const borderAndBadgeClasses = window.PublicationsLoader.getTypeClasses(pub.type);
+    const borderAndBadgeClasses = window.PublicationsLoader.getTypeClasses(pub.badge);
     const doiLink = pub.doi ? (pub.doi.startsWith('http') ? pub.doi : 'https://doi.org/' + pub.doi) : null;
     const urlLink = doiLink || (pub.url ? pub.url : null);
     const titleLink = urlLink;

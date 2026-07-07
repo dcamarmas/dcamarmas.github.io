@@ -49,7 +49,7 @@
       container,
       publicationsPath: 'content/publications/publications.json',
       filter: (pub) => {
-        const isJournalOrConference = pub.type === 'conference' || pub.type === 'workshop';
+        const isJournalOrConference = pub.type === 'conference';
         const isAuthor = String(pub.authorsDisplay || '').includes(authorToSearch) || String(pub.authorsData || '').includes(authorToSearch);
         return isJournalOrConference && isAuthor;
       },

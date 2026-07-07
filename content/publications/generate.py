@@ -61,7 +61,7 @@ def find_workshop_papers(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     Identify workshop publications based on keywords.
     Returns a list of entries that are workshop papers.
     """
-    workshop_keys = ["munoz2024malleability"]
+    workshop_keys = ["munoz2024malleability", "enigma_pdp", "bockchain_sarteco_workshop"]
     workshop_entries = []
 
     for entry in entries:
@@ -427,19 +427,17 @@ def main():
             seen[key] = j
             norm_entries.append(j)
 
-    # Detect workshop publications
-    workshop_matches = find_workshop_papers(norm_entries)
-    if workshop_matches:
-        for we in workshop_matches:
-            we["type"] = "workshop"
-            we["badge"] = "Workshop"
-
     # Detect national conference publications
     national_conference_matches = find_national_conference_papers(norm_entries)
     if national_conference_matches:
         for we in national_conference_matches:
             we["type"] = "nat_conference"
-            we["badge"] = "Conference"
+
+    # Detect workshop publications
+    workshop_matches = find_workshop_papers(norm_entries)
+    if workshop_matches:
+        for we in workshop_matches:
+            we["badge"] = "Workshop"
 
     # Save unique entries
     with open(args.output, "w", encoding="utf-8") as f:
