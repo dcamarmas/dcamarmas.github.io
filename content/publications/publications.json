@@ -1,6 +1,19 @@
 [
   {
     "year": 2026,
+    "type": "conference",
+    "badge": "Conference",
+    "title": "Transparent Checkpointing in Parallel Applications Using AD-HOC File Systems",
+    "authorsDisplay": "Muñoz-Muñoz, D., Garcia-Carballeira, F., Calderon-Mateos, A., Camarmas-Alonso, D., & Carretero, J.",
+    "authorsData": "Muñoz-Muñoz, Garcia-Carballeira, Calderon-Mateos, Camarmas-Alonso, Carretero",
+    "venue": "2026 25th International Symposium on Parallel and Distributed Computing (ISPDC), pp. 65–73, IEEE.",
+    "doi": "10.1109/ispdc69862.2026.00017",
+    "url": "http://dx.doi.org/10.1109/ispdc69862.2026.00017",
+    "key": "Mu_oz_Mu_oz_ispdc_2026",
+    "bibtex": "@inproceedings{Mu_oz_Mu_oz_ispdc_2026,\n  author = {Muñoz-Muñoz, Dario and Garcia-Carballeira, Felix and Calderon-Mateos, Alejandro and Camarmas-Alonso, Diego and Carretero, Jesus},\n  title = {Transparent Checkpointing in Parallel Applications Using AD-HOC File Systems},\n  year = {2026},\n  booktitle = {2026 25th International Symposium on Parallel and Distributed Computing (ISPDC)},\n  pages = {65–73},\n  doi = {10.1109/ispdc69862.2026.00017},\n  url = {http://dx.doi.org/10.1109/ispdc69862.2026.00017},\n  publisher = {IEEE}\n}"
+  },
+  {
+    "year": 2026,
     "type": "journal",
     "badge": "Journal",
     "title": "CREATOR: An integrated development environment for programming assembly in RISC-V architectures",
