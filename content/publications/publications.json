@@ -14,6 +14,19 @@
   },
   {
     "year": 2026,
+    "type": "conference",
+    "badge": "Conference",
+    "title": "CREATOR: A RISC-V web simulator based on Sail specification language",
+    "authorsDisplay": "Cano-Resa, J. C., Garcia-Carballeira, F., Camarmas-Alonso, D., & Caderon-Mateos, A.",
+    "authorsData": "Cano-Resa, Garcia-Carballeira, Camarmas-Alonso, Caderon-Mateos",
+    "venue": "RISC-V Summit Europe 2026.",
+    "doi": "10.13140/RG.2.2.12039.36002",
+    "url": "https://doi.org/10.13140/RG.2.2.12039.36002",
+    "key": "cano_resa_riscv_summit_2026",
+    "bibtex": "@inproceedings{cano_resa_riscv_summit_2026,\n  author = {Juan Carlos Cano-Resa and Felix Garcia-Carballeira and Diego Camarmas-Alonso and Alejandro Caderon-Mateos},\n  title = {CREATOR: A RISC-V web simulator based on Sail specification language},\n  year = {2026},\n  booktitle = {RISC-V Summit Europe 2026},\n  doi = {10.13140/RG.2.2.12039.36002},\n  url = {https://doi.org/10.13140/RG.2.2.12039.36002}\n}"
+  },
+  {
+    "year": 2026,
     "type": "journal",
     "badge": "Journal",
     "title": "CREATOR: An integrated development environment for programming assembly in RISC-V architectures",
