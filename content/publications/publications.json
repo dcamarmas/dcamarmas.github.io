@@ -1,6 +1,19 @@
 [
   {
     "year": 2026,
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Improving big data analytics ecosystems using ad-hoc parallel file systems",
+    "authorsDisplay": "",
+    "authorsData": "",
+    "venue": "",
+    "doi": "10.1186/s40537-026-01559-6",
+    "url": "http://dx.doi.org/10.1186/s40537-026-01559-6",
+    "key": "Sotodosos_Morales_2026",
+    "bibtex": "@article{Sotodosos_Morales_2026,\n  title = {Improving big data analytics ecosystems using ad-hoc parallel file systems},\n  year = {2026},\n  doi = {10.1186/s40537-026-01559-6},\n  url = {http://dx.doi.org/10.1186/s40537-026-01559-6},\n  author. = {Sotodosos-Morales, Gabriel and Garcia-Carballeira, Felix and Camarmas-Alonso, Diego and Calderon-Mateos, Alejandro and Muñoz-Muñoz, Dario and Carretero, Jesus},\n  issn = {2196-1115},\n  journal. = {Journal of Big Data},\n  publisher. = {Springer Science and Business Media LLC}\n}"
+  },
+  {
+    "year": 2026,
     "type": "conference",
     "badge": "Conference",
     "title": "Transparent Checkpointing in Parallel Applications Using Ad-Hoc File Systems",
