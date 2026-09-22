@@ -4,13 +4,13 @@
     "type": "journal",
     "badge": "Journal",
     "title": "Improving big data analytics ecosystems using ad-hoc parallel file systems",
-    "authorsDisplay": "",
-    "authorsData": "",
-    "venue": "",
+    "authorsDisplay": "Sotodosos-Morales, G., Garcia-Carballeira, F., Camarmas-Alonso, D., Calderon-Mateos, A., Muñoz-Muñoz, D., & Carretero, J.",
+    "authorsData": "Sotodosos-Morales, Garcia-Carballeira, Camarmas-Alonso, Calderon-Mateos, Muñoz-Muñoz, Carretero",
+    "venue": "Journal of Big Data, Springer Science and Business Media LLC.",
     "doi": "10.1186/s40537-026-01559-6",
     "url": "http://dx.doi.org/10.1186/s40537-026-01559-6",
     "key": "Sotodosos_Morales_2026",
-    "bibtex": "@article{Sotodosos_Morales_2026,\n  title = {Improving big data analytics ecosystems using ad-hoc parallel file systems},\n  year = {2026},\n  doi = {10.1186/s40537-026-01559-6},\n  url = {http://dx.doi.org/10.1186/s40537-026-01559-6},\n  author. = {Sotodosos-Morales, Gabriel and Garcia-Carballeira, Felix and Camarmas-Alonso, Diego and Calderon-Mateos, Alejandro and Muñoz-Muñoz, Dario and Carretero, Jesus},\n  issn = {2196-1115},\n  journal. = {Journal of Big Data},\n  publisher. = {Springer Science and Business Media LLC}\n}"
+    "bibtex": "@article{Sotodosos_Morales_2026,\n  author = {Sotodosos-Morales, Gabriel and Garcia-Carballeira, Felix and Camarmas-Alonso, Diego and Calderon-Mateos, Alejandro and Muñoz-Muñoz, Dario and Carretero, Jesus},\n  title = {Improving big data analytics ecosystems using ad-hoc parallel file systems},\n  year = {2026},\n  journal = {Journal of Big Data},\n  doi = {10.1186/s40537-026-01559-6},\n  url = {http://dx.doi.org/10.1186/s40537-026-01559-6},\n  publisher = {Springer Science and Business Media LLC},\n  issn = {2196-1115}\n}"
   },
   {
     "year": 2026,
